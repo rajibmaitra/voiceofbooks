@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   As a proof of concept, Voice of Books selected a section of blind students in West Bengal, Guma.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
-#url: "https://rajibmaitra.github.io/demosite/"
+#url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rajibmaitra.github.io/voiceofbooks/"
 twitter_username: jekyllrb
 github_username:  rajibmaitra
 
