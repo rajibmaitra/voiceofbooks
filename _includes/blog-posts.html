@@ -3,44 +3,26 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1"> 
 
+
+            {% for post in site.posts %}
                 <!-- Blog Post -->
-                <h2><a href="post.html">Why we need Audio Library</a></h2>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-                <p class="lead">by <a href="#">Tarak Chandra</a></p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on April 01, 2021</p>             
-                <hr>
-                <p>the story ...</p>
+                <p class="lead">by {{ post.author }}
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y"}}</p>             
+                
+                <!-- Preview Image -->
+                {% if page.image %}
+                 <img class="img-responsive" src="{{ post.image }}" alt="{{ post.title }}">
+                {% endif %}
+              
+                {{ post.excerpt }}
+                
+                <a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
-                <a class="btn btn-primary" href="post.html">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                 <hr> 
-
-
-                <!-- Blog Post -->
-                <h2><a href="post.html">Progess so far</a></h2>
-
-                <p class="lead">by <a href="#">Tarak Chandra</a></p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on April 15, 2021</p>             
-                <hr>
-                <p>the story ...</p>
-
-                <a class="btn btn-primary" href="post.html">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-                <hr> 
-
-
-
-                <!-- Blog Post -->
-                <h2><a href="post.html">Organization registration</a></h2>
-
-                <p class="lead">by <a href="#">Tarak Chandra</a></p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on June 15, 2021</p>             
-                <hr>
-                <p>the story ...</p>
-
-                <a class="btn btn-primary" href="post.html">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-                <hr> 
-
-
-
+                
+                {% endfor %}
 
             </div>
         </div> 

@@ -17,11 +17,11 @@ layout: default
                 <!-- Blog Post -->
 
                 <!-- Title -->
-                <h1>{{page.title}}</h1>
+                <h1>{{ page.title }}</h1>
 
                 <!-- Author -->
                 <p class="lead">
-                    by {{page.author}}</a>
+                    by {{ page.author }}</a>
                 </p>
 
                 <hr>
@@ -90,8 +90,7 @@ layout: default
 
                 <!-- Side Widget Well -->
                 <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                    {% include contact-info.html %}
                 </div>
 
             </div>
