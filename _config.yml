@@ -27,8 +27,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://rajibmaitra.github.io/voiceofbooks/"
-twitter_username: jekyllrb
+#url: "https://rajibmaitra.github.io/voiceofbooks/"
+url: "https://voiceofbooks.org/"
+
+twitter_username: RajibMaitra6
 github_username:  rajibmaitra
 
 permalink: none
