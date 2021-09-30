@@ -886,3 +886,8 @@ footer .footer-manu ul li a:hover {
   background-color: #d4d3d8;
 
 }
+
+.bookcarddetail {
+  padding-left: 15px;
+  text-align: left;
+}
