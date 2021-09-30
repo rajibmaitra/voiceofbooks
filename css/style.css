@@ -866,3 +866,22 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+/*---------------------------------------------
+					Book List 
+-----------------------------------------------*/
+
+
+.bookcard {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 20px; /* 5px rounded corners */
+  background-color: #ebeaee;
+}
+
+/* On mouse-over, add a deeper shadow */
+.bookcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #d4d3d8;
+}
