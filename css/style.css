@@ -897,3 +897,55 @@ footer .footer-manu ul li a:hover {
   text-align: left;
 }
 
+
+
+/*---------------------------------------------
+					Adopt a book script
+-----------------------------------------------*/
+
+   
+
+.container1{
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.boxes{
+  border: 2px solid rgb(227, 252, 227);
+  border-radius: 20px; /* 5px rounded corners */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;   
+  box-shadow: 0 0 10px silver;
+  transition: 300ms all;
+  background-size: cover;
+  background-position: center;
+  /*background-color: #334145; */ 
+}
+.box-content{
+  background-color: white;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+  transition: 300ms all;
+  border-radius: 20px; /* 5px rounded corners */
+}
+.boxes:hover {
+  transform: scale(1.1);
+}
+/*---------------------------------------------
+  part of boxes
+  justify-content: flex-end; 
+
+
+.boxes:hover .box-content{
+  background-color: transparent;
+  color: white;
+}
+-------------------------------------------*/
