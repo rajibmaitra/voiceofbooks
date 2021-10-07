@@ -8,7 +8,7 @@ var bookarray = [
     ["Political Science", "Author Name", "Graduation", "Bengali", "300"],
     ["Bengali text", "Author Name", "Class XII", "Bengali", "1000"],
     ["English Text", "Author Name", "Masters", "Bengali", "900"],
-    ["Humanity", "Author Name", "Graduation", "Bengali", "333"]
+    ["Geography", "Author Name", "Graduation", "Bengali", "333"]
 ];
 var dynamic = document.querySelector('.container1');  
 for (var i = 0; i < bookarray.length; i++) {
