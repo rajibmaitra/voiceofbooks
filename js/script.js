@@ -2,26 +2,29 @@
 //var descriptionarray =["css style","js program","python code","java objects","android program","jquery objects","ruby code"];
 
 var bookarray = [
-    ["Life Science for Class 9", "Author Name", "Career Development", "Bengali", "100"],
-    ["Railway Exam", "Author Name", "GClass XI", "Bengali", "240"],
-    ["History", "Author Name", "Graduation", "Bengali", "111"], 
-    ["Political Science", "Author Name", "Graduation", "Bengali", "300"],
-    ["Bengali text", "Author Name", "Class XII", "Bengali", "1000"],
-    ["English Text", "Author Name", "Masters", "Bengali", "900"],
-    ["Geography", "Author Name", "Graduation", "Bengali", "333"]
+    ["Indian History <br>", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", ""], 
+    ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition"],
+    ["Math Book ", "S chand", "Career Development", "Bengali", "777", "General Mathematics"],
+    ["General Intelligence & Reasoning", "Subir Das", "Career Development", "Bengali", "850", "Competitive Exam"],
+    ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1400", "Competitive Exam"]
 ];
 var dynamic = document.querySelector('.container1');  
 for (var i = 0; i < bookarray.length; i++) {
+  var x = (parseInt(bookarray[i][4]) / 500) * 4000;
+
     var fetch = document.querySelector('.container1').innerHTML;  
     dynamic.innerHTML = `<div id="cards${i}" class="boxes">
       <div class="box-content">
-        <h2>${bookarray[i][0]}</h2>
+        <h4>${bookarray[i][0]}</h4> <br>
         <p>
           
           Author: ${bookarray[i][1]}  <br>
           Grade: ${bookarray[i][2]}  <br>
           Language: ${bookarray[i][3]} <br>
-          Original Book: ${bookarray[i][4]} pages <br>
+          Book: ${bookarray[i][4]} pages <br>
+          Description: ${bookarray[i][5]}  <br>
+          
+          Estimated Cost: ${x.toString()} INR <br>
         </p>
         <br>
         <a class="showmore" href="#">Let's connect in FB</a>
