@@ -2,11 +2,16 @@
 //var descriptionarray =["css style","js program","python code","java objects","android program","jquery objects","ruby code"];
 
 var bookarray = [
-    ["Indian History <br>", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", ""], 
-    ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition"],
-    ["Math Book ", "S chand", "Career Development", "Bengali", "777", "General Mathematics"],
-    ["General Intelligence & Reasoning", "Subir Das", "Career Development", "Bengali", "850", "Competitive Exam"],
-    ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1400", "Competitive Exam"]
+  ["সমসাময়িক আন্তর্জাতিক সম্পর্ক", "Radharaman Chakraborty & Sukalpa Chakraborty", "Honors Grad", "Bengali", "780", "Modern international relations"],
+  ["তুলনামূলক শাসন ব্যবস্থা ও রাজনীতি", "Himangshu Ghosh", "Honors Grad", "Bengali", "570", "Comparative governance and politics"], 
+  ["তুলনামূলক শাসন ব্যবস্থা ও রাজনীতি", "Rajashree Basu", "Honors Grad", "Bengali", "850", "Comparative governance and politics "], 
+  ["ভারতীয় রাষ্ট্রচিন্তা পরিচয়", "Ashok Kukar Mukherjee", "Honors Grad", "Bengali", "600", "Indian political Science"],  
+  ["Applied English", "P. C. Das", "Class XI - XII", "English", "850", "English literature"],  
+  ["Indian History <br>", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", ""], 
+  ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition"],
+  ["Math Book ", "S chand", "Career Development", "Bengali", "777", "General Mathematics"],
+  ["General Intelligence & Reasoning", "Subir Das", "Career Development", "Bengali", "850", "Competitive Exam"],
+  ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1400", "Competitive Exam"]
 ];
 var dynamic = document.querySelector('.container1');  
 for (var i = 0; i < bookarray.length; i++) {
