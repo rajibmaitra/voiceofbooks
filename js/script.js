@@ -8,7 +8,6 @@ var bookarray = [
   ["ভারতীয় রাষ্ট্রচিন্তা পরিচয়", "Ashok Kukar Mukherjee", "Honors Grad", "Bengali", "600", "Indian political Science"],  
   ["Applied English", "P. C. Das", "Class XI - XII", "English", "850", "English literature"],  
   ["Indian History <br>", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", ""], 
-  ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition"],
   ["Math Book ", "S chand", "Career Development", "Bengali", "777", "General Mathematics"],
   ["General Intelligence & Reasoning", "Subir Das", "Career Development", "Bengali", "850", "Competitive Exam"],
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1400", "Competitive Exam"]
@@ -32,7 +31,7 @@ for (var i = 0; i < bookarray.length; i++) {
           Estimated Cost: ${x.toString()} INR <br>
         </p>
         <br>
-        <a class="showmore" href="#">Let's connect in FB</a>
+        <a class="showmore" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550">Let's connect in FB</a>
       </div>
     </div>` + fetch ; 
     //var bgimg = document.getElementById(`cards${i}`);
