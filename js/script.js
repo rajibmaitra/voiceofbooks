@@ -1,13 +1,21 @@
 //var titlearray =["css","js","python","java","android","jquery","ruby"];
 //var descriptionarray =["css style","js program","python code","java objects","android program","jquery objects","ruby code"];
 
-var bookarray = [
+var bookarray = [ 
+  ["সকালবেলার আলো", "Sankha Ghosh", "Honors Grad", "Bengali", "450", "Literature"],
+  ["বিপুলা পৃথিবী", "Anisuzzaman", "Honors Grad", "Bengali", "450", "Literature"],
+  ["হলুদ বসন্ত  ", "Buddhadeb Guha", "Honors Grad", "Bengali", "450", "Literature"],
+  ["Nabo Chando Shoili", "Sudhansu Sekhar Sasmal", "Honors Grad", "Bengali", "500", "Literature"],
+  ["Ramtanu Lahiri O Tatkalin Bangasamaj", "Sibnath Shastri", "Honors Grad", "Bengali", "425", "Literature"],
+
+  ["Class X Test Paper", "WBHS", "Secondary", "Bengali", "300", "Test Prep for Exam"],
+  ["Class XII Test Paper", "WBHS", "Higher Secondary", "Bengali", "350", "Test Prep for Exam"],
+  
   ["সমসাময়িক আন্তর্জাতিক সম্পর্ক", "Radharaman Chakraborty & Sukalpa Chakraborty", "Honors Grad", "Bengali", "780", "Modern international relations"],
   ["তুলনামূলক শাসন ব্যবস্থা ও রাজনীতি", "Himangshu Ghosh", "Honors Grad", "Bengali", "570", "Comparative governance and politics"], 
   ["তুলনামূলক শাসন ব্যবস্থা ও রাজনীতি", "Rajashree Basu", "Honors Grad", "Bengali", "850", "Comparative governance and politics "], 
   ["ভারতীয় রাষ্ট্রচিন্তা পরিচয়", "Ashok Kukar Mukherjee", "Honors Grad", "Bengali", "600", "Indian political Science"],  
   ["Applied English", "P. C. Das", "Class XI - XII", "English", "850", "English literature"],  
-  ["Indian History <br>", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", ""], 
   ["Math Book ", "S chand", "Career Development", "Bengali", "777", "General Mathematics"],
   ["General Intelligence & Reasoning", "Subir Das", "Career Development", "Bengali", "850", "Competitive Exam"],
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1400", "Competitive Exam"]
