@@ -8,25 +8,27 @@ var bookarray_CareerDevelopment = [
 ];
 
 var bookarray_Graduation = [
-  ["Proshno Uttore Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Question & Answer: Indian History", "27"],
+ 
   ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
   ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition History", "31"],
-  ["Indian History", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", "Grad level History book","42"], 
-  ["Prachin Biswa: Social o Cultural Development", "Suman Mukherjee", "Honors Grad", "Bengali", "288", "Grad level Text book","15"], 
+  ["Indian History", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", "Grad level History book","42"],
   ["History of Modern India", "Sidhartha Guho Roy", "Honors Grad", "Bengali", "1024", "Grad level Text book","51.5"], 
   ["Biswa Sovyotar Modhyojug ", "Asif Jamal Noskor", "Graduation", "Bengali", "343", "Grad level History book", "23"], 
   ["Bengali Teacher ", "Bhutan Chandra Ghosh", "Graduation", "Bengali", "460", "Grad level Text book", "25"], 
   ["Political Science ", "Anadi Kumar Mahapatra", "Graduation", "Bengali", "953", "Grad level Pol Science", "60"], 
   ["Bangla Bhasha Porikroma ", "Paresh Ch Majumder", "Graduation", "Bengali", "256", "Grad level Text book", "12.5"], 
-  ["B. Ed Scanner ", "Asim Kumar", "Graduation", "Bengali", "550", "Grad level Text book", "42"]
+  ["B. Ed Scanner ", "Asim Kumar", "Graduation", "Bengali", "550", "Grad level Text book", "42"],
+  ["Proshno Uttore Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Question & Answer: Indian History", "27"],
+  ["Prachin Biswa: Social o Cultural Development", "Suman Mukherjee", "Honors Grad", "Bengali", "288", "Grad level Text book","15"]
 ]; 
 
 var bookarray_HS = [
-  ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"],
+  
+  ["WBHA ARTS Test Paper 2021 ", "Parul Prakashani", "Class XII", "Bengali", "544", "Higher Secondary", "23"],
   ["Bengali Text ", "WB Govt", "Class XI", "Bengali", "127", "Higher Secondary", "6"], 
   ["Itihaas Sahayika ", "Subhas Biswas", "Class XII", "Bengali", "250", "Higher Secondary", "12.5"], 
   ["Bangla Bhasha O Shilpo Sanskriti Itihaas ", "WBCHSE", "Class XI", "Bengali", "192", "Higher Secondary", "12.5"],
-  ["BWBHA ARTS Test Paper 2021 ", "Parul Prakashani", "Class XII", "Bengali", "544", "Higher Secondary", "23"]
+  ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"]
 ]; 
 
 var bookarray_S = [ 
