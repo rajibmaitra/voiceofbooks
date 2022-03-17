@@ -8,6 +8,8 @@ var bookarray_CareerDevelopment = [
 ];
 
 var bookarray_Graduation = [
+  ["Proshno Uttore Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Question & Answer: Indian History", "27"],
+  ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
   ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition History", "31"],
   ["Indian History", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", "Grad level History book","42"], 
   ["Prachin Biswa: Social o Cultural Development", "Suman Mukherjee", "Honors Grad", "Bengali", "288", "Grad level Text book","15"], 
@@ -20,7 +22,7 @@ var bookarray_Graduation = [
 ]; 
 
 var bookarray_HS = [
-
+  ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"],
   ["Bengali Text ", "WB Govt", "Class XI", "Bengali", "127", "Higher Secondary", "6"], 
   ["Itihaas Sahayika ", "Subhas Biswas", "Class XII", "Bengali", "250", "Higher Secondary", "12.5"], 
   ["Bangla Bhasha O Shilpo Sanskriti Itihaas ", "WBCHSE", "Class XI", "Bengali", "192", "Higher Secondary", "12.5"],
@@ -28,6 +30,7 @@ var bookarray_HS = [
 ]; 
 
 var bookarray_S = [ 
+  ["Class 10 Challenger - All subjects", "Puja Prokashoni", "Class X", "Bengali", "800", "Secondary / Madhyamik", "36"],
   ["Life Science for Class 9", "Ray Martin", "Class IX", "Bengali", "145", "Secondary / Madhyamik", "5"],
   ["History for Class 9", "Samar Kr Mallik & Prasanta Kundu", "Class IX", "Bengali", "141", "Secondary / Madhyamik", "3"],
   ["Life Science for Class 10", "Ray Martin", "Class X", "Bengali", "455", "Secondary / Madhyamik", "11"],
