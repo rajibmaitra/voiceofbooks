@@ -87,6 +87,7 @@ function cardPrintArray(bookarray) {
           </p>
           <br>
           <a class="showmore" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550">Let's connect in FB</a>
+          <br>
         </div>
       </div>`; 
   
