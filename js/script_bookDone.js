@@ -8,7 +8,7 @@ var bookarray_CareerDevelopment = [
 ];
 
 var bookarray_Graduation = [
- 
+  
   ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
   ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition History", "31"],
   ["Indian History", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", "Grad level History book","42"],
@@ -19,6 +19,8 @@ var bookarray_Graduation = [
   ["Bangla Bhasha Porikroma ", "Paresh Ch Majumder", "Graduation", "Bengali", "256", "Grad level Text book", "12.5"], 
   ["B. Ed Scanner ", "Asim Kumar", "Graduation", "Bengali", "550", "Grad level Text book", "42"],
   ["Proshno Uttore Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Question & Answer: Indian History", "27"],
+  ["Modern Times of India(1880-1950)", "Sumit Sarkar", "Graduation", "Bengali", "484", "Political Science", "43"],
+  ["Prachin Rome er Itihaas 753-718 AD", "Deboshree Dey", "Graduation", "Bengali", "460", "History of Rome", "60"],
   ["Prachin Biswa: Social o Cultural Development", "Suman Mukherjee", "Honors Grad", "Bengali", "288", "Grad level Text book","15"]
 ]; 
 
