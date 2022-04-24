@@ -85,9 +85,8 @@ function cardPrintArray(bookarray) {
             Description: ${bookarray[i][5]}  <br>         
             Duration: ${bookarray[i][6]} Hours <br>
           </p>
-          <br>
           <a class="showmore" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550">Let's connect in FB</a>
-          <br>
+ 
         </div>
       </div>`; 
   
