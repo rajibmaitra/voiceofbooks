@@ -89,8 +89,8 @@ function cardPrintArray(bookarray) {
         </div>
       </div>`; 
   
-      if ((i+1)%3 == 0)
-        <br>
+      //if ((i+1)%3 == 0)
+      //  <br>
 
       //var bgimg = document.getElementById(`cards${i}`);
       //bgimg.style.backgroundImage = `url('img/logo-small.png.jpg')`;
