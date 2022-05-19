@@ -18,11 +18,14 @@ var bookarray_Graduation = [
   ["Political Science ", "Anadi Kumar Mahapatra", "Graduation", "Bengali", "953", "Grad level Pol Science", "60"], 
   ["Bangla Bhasha Porikroma ", "Paresh Ch Majumder", "Graduation", "Bengali", "256", "Grad level Text book", "12.5"], 
   ["B. Ed Scanner ", "Asim Kumar", "Graduation", "Bengali", "550", "Grad level Text book", "42"],
+  ["Rajnitik Somaj Totwo", "Anadi Kr Mohapatra", "Honors Grad", "Bengali", "676", "Political Science","68"],
   
   ["Proshno Uttore <br> Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Q&A of Indian History", "27"],
   ["Modern Times of India <br> 1880-1950 AD", "Sumit Sarkar", "Graduation", "Bengali", "484", "Political Science", "43"],
   ["Prachin Rome er Itihaas <br> 753-718 AD", "Deboshree Dey", "Graduation", "Bengali", "460", "History of Rome", "60"],
-  ["Prachin Biswa: Social O <br> Cultural Development", "Suman Mukherjee", "Honors Grad", "Bengali", "288", "Grad level Text book","15"]
+  ["Prachin Biswa: Social O <br> Cultural Development", "Suman Mukherjee", "Honors Grad", "Bengali", "288", "Grad level Text book","15"],
+  ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"]
+  
 ]; 
 
 var bookarray_HS = [
@@ -43,6 +46,7 @@ var bookarray_S = [
   ["WBHA Test Paper ", "WB Govt", "Class X", "Bengali", "400", "Secondary / Madhyamik", "19.6"],
   ["WBTA Test Paper 2021", "Parul Prakashani", "Class X", "Bengali", "577", "Secondary / Madhyamik", "15"],
   ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"]
+  //["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "Bengali", "476", "Secondary / Madhyamik", "6.5"]
 ]; 
 
 var bookarray_literature = [
