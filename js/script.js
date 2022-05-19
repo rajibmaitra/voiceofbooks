@@ -8,9 +8,8 @@ var bookarray = [
   //["Nabo Chando Shoili", "Sudhansu Sekhar Sasmal", "Honors Grad", "Bengali", "500", "Literature"],
   //["Class X Test Paper", "WBHS", "Secondary", "Bengali", "300", "Test Prep for Exam"],
   //["Class XII Test Paper", "WBHS", "Higher Secondary", "Bengali", "350", "Test Prep for Exam"],
-  //["Math Book ", "S chand", "Career Development", "Bengali", "777", "General Mathematics"],
 
-
+  ["Math Book ", "S chand", "Career Development", "Bengali", "777", "General Mathematics"],
   ["Ramtanu Lahiri O Tatkalin Bangasamaj", "Sibnath Shastri", "Honors Grad", "Bengali", "425", "Literature"],
   ["সমসাময়িক আন্তর্জাতিক সম্পর্ক", "Radharaman Chakraborty & Sukalpa Chakraborty", "Honors Grad", "Bengali", "780", "Modern international relations"],
   ["তুলনামূলক শাসন ব্যবস্থা ও রাজনীতি", "Himangshu Ghosh", "Honors Grad", "Bengali", "570", "Comparative governance and politics"], 
