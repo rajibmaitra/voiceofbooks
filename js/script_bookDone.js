@@ -7,6 +7,7 @@ var bookarray_CareerDevelopment = [
   ["CWBCS General Studies Manual", "Nitin Singhania", "Career Development", "Bengali", "1400", "Competitive Exam", "46"],
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
 ];
+//6 update the sum in audiobooklist.html
 
 var bookarray_Graduation = [
   
@@ -19,15 +20,15 @@ var bookarray_Graduation = [
   ["Political Science ", "Anadi Kumar Mahapatra", "Graduation", "Bengali", "953", "Grad level Pol Science", "60"], 
   ["Bangla Bhasha Porikroma ", "Paresh Ch Majumder", "Graduation", "Bengali", "256", "Grad level Text book", "12.5"], 
   ["B. Ed Scanner ", "Asim Kumar", "Graduation", "Bengali", "550", "Grad level Text book", "42"],
-  ["Rajnitik Somaj Totwo", "Anadi Kr Mohapatra", "Honors Grad", "Bengali", "676", "Political Science","68"],
+  ["Rajnitik Somaj Totto", "Anadi Kr Mohapatra", "Honors Grad", "Bengali", "676", "Political Science","68"],
   
   ["Proshno Uttore <br> Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Q&A of Indian History", "27"],
   ["Modern Times of India <br> 1880-1950 AD", "Sumit Sarkar", "Graduation", "Bengali", "484", "Political Science", "43"],
   ["Prachin Rome er Itihaas <br> 753-718 AD", "Deboshree Dey", "Graduation", "Bengali", "460", "History of Rome", "60"],
   ["Prachin Biswa: Social O <br> Cultural Development", "Suman Mukherjee", "Honors Grad", "Bengali", "288", "Grad level Text book","15"],
   ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"]
-  
 ]; 
+//15 update the sum in audiobooklist.html
 
 var bookarray_HS = [
   
@@ -37,6 +38,7 @@ var bookarray_HS = [
   ["Bangla Bhasha O Shilpo Sanskriti Itihaas ", "WBCHSE", "Class XI", "Bengali", "192", "Higher Secondary", "12.5"],
   ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"]
 ]; 
+//5 update the sum in audiobooklist.html
 
 var bookarray_S = [ 
   ["Class 10 Challenger - All subjects", "Puja Prokashoni", "Class X", "Bengali", "800", "Secondary / Madhyamik", "36"],
@@ -49,10 +51,12 @@ var bookarray_S = [
   ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"],
   ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "Bengali", "476", "Secondary / Madhyamik", "10"]
 ]; 
+//9 update the sum in audiobooklist.html
 
 var bookarray_literature = [
   ["Kapalkundala", "Bankim Chandra Chattopadhyay", "For all", "Bengali", "68", "Literature", "4.5"]
 ]; 
+//1
 
 var dynamic = document.querySelector('.container1');  
 
