@@ -46,8 +46,8 @@ var bookarray_S = [
   ["Geography for Class 10", "Judhisthir Hazra", "Class X", "Bengali", "149", "Secondary / Madhyamik", "8"],
   ["WBHA Test Paper ", "WB Govt", "Class X", "Bengali", "400", "Secondary / Madhyamik", "19.6"],
   ["WBTA Test Paper 2021", "Parul Prakashani", "Class X", "Bengali", "577", "Secondary / Madhyamik", "15"],
-  ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"]
-  //["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "Bengali", "476", "Secondary / Madhyamik", "6.5"]
+  ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"],
+  ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "Bengali", "476", "Secondary / Madhyamik", "10"]
 ]; 
 
 var bookarray_literature = [
