@@ -4,7 +4,8 @@ var bookarray_CareerDevelopment = [
   ["Railway Clarical Exam ", "WBSC", "Career Development", "English", "75", "Competitive Exam", "3.5"], 
   ["Railway Recruitment ", "Gen D Kamal Hosen", "Career Development", "English", "250", "Competitive Exam", "12"], 
   ["Rail General Knowledge ", "Debabrata Sarkar", "Career Development", "Bengali", "128", "Competitive Exam", "6"], 
-  ["CWBCS General Studies Manual", "Nitin Singhania", "Career Development", "Bengali", "1400", "Competitive Exam", "46"]
+  ["CWBCS General Studies Manual", "Nitin Singhania", "Career Development", "Bengali", "1400", "Competitive Exam", "46"],
+  ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
 ];
 
 var bookarray_Graduation = [

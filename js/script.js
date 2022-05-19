@@ -17,8 +17,7 @@ var bookarray = [
   ["তুলনামূলক শাসন ব্যবস্থা ও রাজনীতি", "Rajashree Basu", "Honors Grad", "Bengali", "850", "Comparative governance and politics "], 
   ["ভারতীয় রাষ্ট্রচিন্তা পরিচয়", "Ashok Kukar Mukherjee", "Honors Grad", "Bengali", "600", "Indian political Science"],  
   ["Applied English", "P. C. Das", "Class XI - XII", "English", "850", "English literature"],  
-  ["General Intelligence & Reasoning", "Subir Das", "Career Development", "Bengali", "850", "Competitive Exam"],
-  ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1400", "Competitive Exam"]
+  ["General Intelligence & Reasoning", "Subir Das", "Career Development", "Bengali", "850", "Competitive Exam"]
 ];
 var dynamic = document.querySelector('.container1');  
 for (var i = 0; i < bookarray.length; i++) {
