@@ -1,6 +1,7 @@
 
 var bookarray_CareerDevelopment = [
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
+  ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
   ["Railway Clarical Exam ", "WBSC", "Career Development", "English", "75", "Competitive Exam", "3.5"], 
   ["Railway Recruitment ", "Gen D Kamal Hosen", "Career Development", "English", "250", "Competitive Exam", "12"], 
   ["Rail General Knowledge ", "Debabrata Sarkar", "Career Development", "Bengali", "128", "Competitive Exam", "6"], 
@@ -21,7 +22,10 @@ var bookarray_Graduation = [
   ["Bangla Bhasha Porikroma ", "Paresh Ch Majumder", "Graduation", "Bengali", "256", "Grad level Text book", "12.5"], 
   ["B. Ed Scanner ", "Asim Kumar", "Graduation", "Bengali", "550", "Grad level Text book", "42"],
   ["Rajnitik Somaj Totto", "Anadi Kr Mohapatra", "Honors Grad", "Bengali", "676", "Political Science","68"],
-  
+  ["Sikhya Totto", "Sushil Roy", "Honors Grad", "Bengali", "456", "Education","26"],
+  ["Tulonamulok Sikhya", "Debasish Paul", "Honors Grad", "Bengali", "436", "Education","20"],
+ 
+
   ["Proshno Uttore <br> Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Q&A of Indian History", "27"],
   ["Modern Times of India <br> 1880-1950 AD", "Sumit Sarkar", "Graduation", "Bengali", "484", "Political Science", "43"],
   ["Prachin Rome er Itihaas <br> 753-718 AD", "Deboshree Dey", "Graduation", "Bengali", "460", "History of Rome", "60"],
@@ -31,11 +35,12 @@ var bookarray_Graduation = [
 //15 update the sum in audiobooklist.html
 
 var bookarray_HS = [
-  
+  ["Highlights ", "P K Mukherjee", "Class XII", "English", "833", "Higher Secondary", "40"],
   ["WBHA ARTS Test Paper 2021 ", "Parul Prakashani", "Class XII", "Bengali", "544", "Higher Secondary", "23"],
   ["Bengali Text ", "WB Govt", "Class XI", "Bengali", "127", "Higher Secondary", "6"], 
   ["Itihaas Sahayika ", "Subhas Biswas", "Class XII", "Bengali", "250", "Higher Secondary", "12.5"], 
   ["Bangla Bhasha O Shilpo Sanskriti Itihaas ", "WBCHSE", "Class XI", "Bengali", "192", "Higher Secondary", "12.5"],
+
   ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"]
 ]; 
 //5 update the sum in audiobooklist.html
@@ -49,7 +54,7 @@ var bookarray_S = [
   ["WBHA Test Paper ", "WB Govt", "Class X", "Bengali", "400", "Secondary / Madhyamik", "19.6"],
   ["WBTA Test Paper 2021", "Parul Prakashani", "Class X", "Bengali", "577", "Secondary / Madhyamik", "15"],
   ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"],
-  ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "Bengali", "476", "Secondary / Madhyamik", "10"]
+  ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"]
 ]; 
 //9 update the sum in audiobooklist.html
 
