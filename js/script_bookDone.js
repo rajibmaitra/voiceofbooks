@@ -11,7 +11,7 @@ var bookarray_CareerDevelopment = [
 //6 update the sum in audiobooklist.html
 
 var bookarray_Graduation = [
-  
+  ["Prachin Rome er Itihaash", "Debasree Dey", "Graduation", "Bengali", "460", "History of Rome: 753-718AD", "60"],
   ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
   ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition History", "31"],
   ["Indian History", "Teslim Chowdhury", "Honors Grad", "Bengali", "840", "Grad level History book","42"],
@@ -35,17 +35,20 @@ var bookarray_Graduation = [
 //15 update the sum in audiobooklist.html
 
 var bookarray_HS = [
+  ["Darshon Sikhyok ", "Bimolendu Samanta", "Class XI", "Bengali", "230", "XI Reference", "20"],
   ["Highlights ", "P K Mukherjee", "Class XII", "English", "833", "Higher Secondary", "40"],
   ["WBHA ARTS Test Paper 2021 ", "Parul Prakashani", "Class XII", "Bengali", "544", "Higher Secondary", "23"],
   ["Bengali Text ", "WB Govt", "Class XI", "Bengali", "127", "Higher Secondary", "6"], 
   ["Itihaas Sahayika ", "Subhas Biswas", "Class XII", "Bengali", "250", "Higher Secondary", "12.5"], 
   ["Bangla Bhasha O Shilpo Sanskriti Itihaas ", "WBCHSE", "Class XI", "Bengali", "192", "Higher Secondary", "12.5"],
-
+  ["Chaya Proshno Uttor e Sikhkhabigyan", "Dr. Debasis Pal & Dr. Susantanto Kr Sahu", "Class XII", "Bengali", "343", "Higher Secondary", "23"],
   ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"]
 ]; 
 //5 update the sum in audiobooklist.html
 
 var bookarray_S = [ 
+  ["Physical Science Reference", "Ray & Martin", "Class X", "Bengali", "537", "Secondary / Madhyamik", "23"],
+  ["Adhunik Bhugol p Poribesh", "Judhisthir Hazra", "Class X", "Bengali", "149", "Secondary / Madhyamik", "10"],
   ["Class 10 Challenger - All subjects", "Puja Prokashoni", "Class X", "Bengali", "800", "Secondary / Madhyamik", "36"],
   ["Life Science for Class 9", "Ray Martin", "Class IX", "Bengali", "145", "Secondary / Madhyamik", "5"],
   ["History for Class 9", "Samar Kr Mallik & Prasanta Kundu", "Class IX", "Bengali", "141", "Secondary / Madhyamik", "3"],
