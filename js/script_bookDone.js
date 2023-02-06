@@ -115,20 +115,21 @@ function cardPrintArray(bookarray) {
         <div class="box-content">
           <h4>${bookarray[i][0]}</h4> <br>
           <p>
-            
             Author: ${bookarray[i][1]}  <br>
-            Grade: ${bookarray[i][2]}  <br>
             Language: ${bookarray[i][3]} <br>
             Book: ${bookarray[i][4]} pages <br>
             Description: ${bookarray[i][5]}  <br>         
             Duration: ${bookarray[i][6]} Hours <br>
           </p>
-          <a class="showmore" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550">Let's connect in FB</a>
- 
+        
         </div>
       </div>`; 
   
       //if ((i+1)%3 == 0)
+
+     //Grade: ${bookarray[i][2]}  <br>
+     //<a class="showmore" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550">Let's connect in FB</a>
+ 
       //  <br>
 
       //var bgimg = document.getElementById(`cards${i}`);

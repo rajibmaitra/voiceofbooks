@@ -917,7 +917,7 @@ footer .footer-manu ul li a:hover {
   border: 2px solid rgb(227, 252, 227);
   border-radius: 20px; /* 5px rounded corners */
   width: 300px;
-  height: 350px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   margin: 5px;
