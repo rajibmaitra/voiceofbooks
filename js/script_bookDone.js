@@ -25,12 +25,7 @@ var bookarray_Graduation = [
  ["Sultani rajotyokale varat","Soumitra srimani", "Honors Grad", "Bengali", "340", "History","40.00"],
  ["Adhunik england part 1","Gopalchandra Sinha", "Honors Grad", "Bengali", "216", "History","15.57"],
  ["Adhunik england part 2","Gopalchandra Sinha", "Honors Grad", "Bengali", "268", "History","14.00"],
- ["Antorjatik somporker itihas","dr pranob kr chatya padhay", "Honors Grad", "Bengali", "392", "History","17.00",
-
-
-
-
-
+ ["Antorjatik somporker itihas","dr pranob kr chatya padhay", "Honors Grad", "Bengali", "392", "History","17.00"],
 
   ["Prachin Rome er Itihaash", "Debasree Dey", "Graduation", "Bengali", "460", "History of Rome: 753-718AD", "60"],
   ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
