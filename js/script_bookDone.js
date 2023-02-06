@@ -1,6 +1,9 @@
 
-// Career Dev Count 7 :: update the sum in audiobooklist.html
+// Career Dev Count 7+2 :: update the sum in audiobooklist.html
 var bookarray_CareerDevelopment = [
+  ["Poribesh", "Dr Anish Chottyopadhay", "Career Development", "Bengali", "512", "Competitive Exam", "25"],
+  ["Complete Guide to Primary TET ", "Rita Publication", "Career Development", "Bengali", "928", "Competitive Exam/TET", "52.5"],
+   // above new
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
   ["Railway Clarical Exam ", "WBSC", "Career Development", "English", "75", "Competitive Exam", "3.5"], 
@@ -12,6 +15,23 @@ var bookarray_CareerDevelopment = [
 
 //Grad Books: 18 update the sum in audiobooklist.html
 var bookarray_Graduation = [
+ ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
+ ["Varoter itihaser adiporbo,1st part pracintomo porbo - 600AD", "Ranbir Chakrabarti", "Graduation", "Bengali", "395", "History OF India:600AD", "19.5"],
+ ["Varot itihas 600-1556", "Teslim Chowdhury", "Honors Grad", "Bengali", "863", "History","41"],
+ ["Varoter sasonbebostyha o rajniti porichoy ", "Anadi Kumar Mahapatra", "Graduation", "Bengali", "843", "Grad level Pol Science", "33"], 
+ ["Varoter Itihas O Jatiyo Mukti Andolon", "Raju Seth", "Honors Grad", "Bengali", "796", "History","67.5"],
+ ["South east Asia","Subodh Kr Mukhopadhya", "Honors Grad", "Bengali", "888", "History","45.7"],
+ ["Biplob theke Biswajudhyo","Gopal Krishna Pahari", "Honors Grad", "Bengali", "378", "History","39.57"],
+ ["Sultani rajotyokale varat","Soumitra srimani", "Honors Grad", "Bengali", "340", "History","40.00"],
+ ["Adhunik england part 1","Gopalchandra Sinha", "Honors Grad", "Bengali", "216", "History","15.57"],
+ ["Adhunik england part 2","Gopalchandra Sinha", "Honors Grad", "Bengali", "268", "History","14.00"],
+ ["Antorjatik somporker itihas","dr pranob kr chatya padhay", "Honors Grad", "Bengali", "392", "History","17.00",
+
+
+
+
+
+
   ["Prachin Rome er Itihaash", "Debasree Dey", "Graduation", "Bengali", "460", "History of Rome: 753-718AD", "60"],
   ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
   ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition History", "31"],
@@ -43,6 +63,11 @@ var bookarray_HS = [
   ["Bangla Bhasha O Shilpo Sanskriti Itihaas ", "WBCHSE", "Class XI", "Bengali", "192", "Higher Secondary", "12.5"],
   ["Chaya Proshno Uttor e Sikhkhabigyan", "Dr. Debasis Pal & Dr. Susantanto Kr Sahu", "Class XII", "Bengali", "343", "Higher Secondary", "23"],
   ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"]
+
+ ["WBHA test paper 2023", "Parul Prakasani", "Class X", "Bengali",, " Secondary", "38"],
+ ["WBHA test paper 2023", "Parul Prakasani", "Class XII", "Bengali",, "higher  Secondary", "33"] 
+
+
 ]; 
 
 //Sec: 11 update the sum in audiobooklist.html
