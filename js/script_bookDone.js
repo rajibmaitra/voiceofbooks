@@ -1,9 +1,10 @@
 
 // Career Dev Count 7+2 :: update the sum in audiobooklist.html
+
 var bookarray_CareerDevelopment = [
   ["Poribesh", "Dr Anish Chottyopadhay", "Career Development", "Bengali", "512", "Competitive Exam", "25"],
-  ["Complete Guide to Primary TET ", "Rita Publication", "Career Development", "Bengali", "928", "Competitive Exam/TET", "52.5"],
-   // above new
+  ["Complete Guide to Primary TET ", "Rita Publication", "Career Development", "Bengali", "928", "Competitive Exam/TET", "52"],
+
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
   ["Railway Clarical Exam ", "WBSC", "Career Development", "English", "75", "Competitive Exam", "3.5"], 
