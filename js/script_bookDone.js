@@ -1,5 +1,5 @@
 
-// Career Dev Count 7 :: update the sum in audiobooklist.html
+// Career Dev Count 9 :: update the sum in audiobooklist.html
 var bookarray_CareerDevelopment = [
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
@@ -14,7 +14,7 @@ var bookarray_CareerDevelopment = [
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
 ];
 
-//Grad Books: 18 update the sum in audiobooklist.html
+//Grad Books: 29 update the sum in audiobooklist.html
 var bookarray_Graduation = [
 
 ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
@@ -29,9 +29,6 @@ var bookarray_Graduation = [
 ["Adhunik england part 2","Gopalchandra Sinha", "Honors Grad", "Bengali", "268", "History","14.00"],
 ["Antorjatik somporker itihas","dr Pranab kr Chatyapadhay", "Honors Grad", "Bengali", "392", "History","17.00"],
 
-
-
-
   ["Prachin Rome er Itihaash", "Debasree Dey", "Graduation", "Bengali", "460", "History of Rome: 753-718AD", "60"],
   ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
   ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition History", "31"],
@@ -45,7 +42,6 @@ var bookarray_Graduation = [
   ["Rajnitik Somaj Totto", "Anadi Kr Mohapatra", "Honors Grad", "Bengali", "676", "Political Science","68"],
   ["Sikhya Totto", "Sushil Roy", "Honors Grad", "Bengali", "456", "Education","26"],
   ["Tulonamulok Sikhya", "Debasish Paul", "Honors Grad", "Bengali", "436", "Education","20"],
- 
   ["Proshno Uttore <br> Bharat Itihaasher Ruprekha", "J K Pahari", "Graduation 4th Sem", "Bengali", "255", "Q&A of Indian History", "27"],
   ["Modern Times of India <br> 1880-1950 AD", "Sumit Sarkar", "Graduation", "Bengali", "484", "Political Science", "43"],
   ["Prachin Rome er Itihaas <br> 753-718 AD", "Deboshree Dey", "Graduation", "Bengali", "460", "History of Rome", "60"],
@@ -53,7 +49,7 @@ var bookarray_Graduation = [
   ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"]
 ]; 
 
-//HS: 8 update the sum in audiobooklist.html
+//HS: 10 update the sum in audiobooklist.html
 var bookarray_HS = [
   ["Darshon Sikhyok ", "Bimolendu Samanta", "Class XI", "Bengali", "230", "XI Reference", "20"],
   ["Highlights ", "P K Mukherjee", "Class XII", "English", "833", "Higher Secondary", "40"],
@@ -68,7 +64,7 @@ var bookarray_HS = [
     ["WBHA test paper 2023", "Parul Prakasani", "Class XII", "Bengali", "1000", "higher  Secondary", "33"]
 ]; 
 
-//Sec: 11 update the sum in audiobooklist.html
+//Sec: 12 update the sum in audiobooklist.html
 var bookarray_S = [ 
   ["Physical Science Reference", "Ray & Martin", "Class X", "Bengali", "537", "Secondary / Madhyamik", "23"],
   ["Adhunik Bhugol p Poribesh", "Judhisthir Hazra", "Class X", "Bengali", "149", "Secondary / Madhyamik", "10"],
