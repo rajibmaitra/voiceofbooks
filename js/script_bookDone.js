@@ -76,7 +76,17 @@ var bookarray_S = [
   ["WBHA Test Paper ", "WB Govt", "Class X", "Bengali", "400", "Secondary / Madhyamik", "19.6"],
   ["WBTA Test Paper 2021", "Parul Prakashani", "Class X", "Bengali", "577", "Secondary / Madhyamik", "15"],
   ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"],
-  ["poribesh o bigyan", "vuiya dhor", "Class xiii", "bengali", "544", "bigyan", "34"], 
+  ["poribesh o bigyan", "vuiya dhor", "Class xiii", "bengali", "544", "bigyan", "34"],
+  ["Itihas O Oitihasik", "Amalesh Tripathi","Honors Grad", "Bengali", "179", "History", "12.00"],
+  ["Antorjatik Somporker Ruprekha Part 1", "Purushottam Bhattachariya and Anindajyoti Majumder", "Honors Grad", "Bengali", "218", "pol Science", "15.00"],
+  ["Europer Biplaber Kal(1789-1848)", "Samar Kumar Mallick", "Honors Grad", "Bengali", "380", "History", "27.00"],
+  ["Antorjatik Somporker Ruprekha part-2", "Puroshottam Bhattachariya and Anindajyoti Majumder", "Honors Grad", "Bengali", "274", "Pol Science", "18.00"],
+  ["Boro Somoy Theke Choto Somoy", "Rajkumar Chakrabarty", "Honors Grad", "Bengali", "237", "History", "12.00"],
+  ["Biswa Sovyatar Prachin Yug", "Siddhartha Guho Roy and Aparajita Bhattachariya", "Honors Grad", "Bengali", "211", "History", "13.00"],
+  ["Rom Arab O Madhya Juger Europe", "Dhrubo Kar and Bumba Dey", "Honors Grad", "Bengali",  "206", "History", "13.40"],
+  ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"],
+ 
+ 
 
   ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"]
 ]; 
