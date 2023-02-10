@@ -94,7 +94,9 @@ var bookarray_S = [
 
 //Other: 1
 var bookarray_literature = [
-  ["Kapalkundala", "Bankim Chandra Chattopadhyay", "For all", "Bengali", "68", "Literature", "4.5"]
+ ["Kapalkundala", "Bankim Chandra Chattopadhyay", "For all", "Bengali", "68", "Literature", "4.5"],
+ ["Loko Oitijheyer Dorpone", "Manos Mojumdar ", "For all", "Bengali", "176", "Literature", "7.5"],
+ ["Mayamridonga", "Soid mustafa siraj", "For all", "Bengali", "144", "Literature", "8.5"]
 ]; 
 
 
