@@ -7,28 +7,25 @@ var bookarray_CareerDevelopment = [
   ["Railway Recruitment ", "Gen D Kamal Hosen", "Career Development", "English", "250", "Competitive Exam", "12"], 
   ["Rail General Knowledge ", "Debabrata Sarkar", "Career Development", "Bengali", "128", "Competitive Exam", "6"], 
   ["CWBCS General Studies Manual", "Nitin Singhania", "Career Development", "Bengali", "1400", "Competitive Exam", "46"],
-
   ["Complete Guide to Primary TET ", "Rita Publication", "Career Development", "Bengali", "928", "Competitive Exam/TET", "52.5"],
   ["poribes ", "Dr anish chottyopadhay", "Career Development", "Bengali", "512", "Competitive Exam", "25"],
-
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
 ];
 
-//Grad Books: 29 update the sum in audiobooklist.html
+//Grad Books: 41 update the sum in audiobooklist.html
 var bookarray_Graduation = [
 
-["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
-["Varoter itihaser adiporbo,1st part pracintomo porbo - 600AD", "Ranbir Chakrabarti", "Graduation", "Bengali", "395", "History OF India:600AD", "19.5"],
-["Varot itihas 600-1556", "Teslim Chowdhury", "Honors Grad", "Bengali", "863", "History","41"],
-["Varoter sasonbebostyha o rajniti porichoy ", "Anadi Kumar Mahapatra", "Graduation", "Bengali", "843", "Grad level Pol Science", "33"], 
-["Varoter Itihas O Jatiyo Mukti Andolon", "Raju Seth", "Honors Grad", "Bengali", "796", "History","67.5"],
-["South east Asia", "Subodh Kr Mukhopadhya", "Honors Grad", "Bengali", "888", "History","45.7"],
-["Biplob theke Biswajudhyo","Gopal Krishna Pahari", "Honors Grad", "Bengali", "378", "History","39.57"],
-["Sultani rajotyokale varat","Soumitra srimani", "Honors Grad", "Bengali", "340", "History","40.00"],
-["Adhunik england part 1","Gopalchandra Sinha", "Honors Grad", "Bengali", "216", "History","15.57"],
-["Adhunik england part 2","Gopalchandra Sinha", "Honors Grad", "Bengali", "268", "History","14.00"],
-["Antorjatik somporker itihas","dr Pranab kr Chatyapadhay", "Honors Grad", "Bengali", "392", "History","17.00"],
-
+  ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
+  ["Varoter itihaser adiporbo,1st part pracintomo porbo - 600AD", "Ranbir Chakrabarti", "Graduation", "Bengali", "395", "History OF India:600AD", "19.5"],
+  ["Varot itihas 600-1556", "Teslim Chowdhury", "Honors Grad", "Bengali", "863", "History","41"],
+  ["Varoter sasonbebostyha o rajniti porichoy ", "Anadi Kumar Mahapatra", "Graduation", "Bengali", "843", "Grad level Pol Science", "33"], 
+  ["Varoter Itihas O Jatiyo Mukti Andolon", "Raju Seth", "Honors Grad", "Bengali", "796", "History","67.5"],
+  ["South east Asia", "Subodh Kr Mukhopadhya", "Honors Grad", "Bengali", "888", "History","45.7"],
+  ["Biplob theke Biswajudhyo","Gopal Krishna Pahari", "Honors Grad", "Bengali", "378", "History","39.57"],
+  ["Sultani rajotyokale varat","Soumitra srimani", "Honors Grad", "Bengali", "340", "History","40.00"],
+  ["Adhunik england part 1","Gopalchandra Sinha", "Honors Grad", "Bengali", "216", "History","15.57"],
+  ["Adhunik england part 2","Gopalchandra Sinha", "Honors Grad", "Bengali", "268", "History","14.00"],
+  ["Antorjatik somporker itihas","dr Pranab kr Chatyapadhay", "Honors Grad", "Bengali", "392", "History","17.00"],
   ["Prachin Rome er Itihaash", "Debasree Dey", "Graduation", "Bengali", "460", "History of Rome: 753-718AD", "60"],
   ["Sikhya Bigyan Dishari", "Sanjay Kr Das & Rakesh Ghosh", "Graduation", "Bengali", "260", "Educational Psychology", "29"],
   ["Modern Indian History 2 ", "Sekhar Bondopadhya", "Honors Grad", "Bengali", "620", "Palashi to Partition History", "31"],
@@ -54,10 +51,12 @@ var bookarray_Graduation = [
   ["Biswa Sovyatar Prachin Yug", "Siddhartha Guho Roy and Aparajita Bhattachariya", "Honors Grad", "Bengali", "211", "History", "13.00"],
   ["Rom Arab O Madhya Juger Europe", "Dhrubo Kar and Bumba Dey", "Honors Grad", "Bengali",  "206", "History", "13.40"],
   ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"],
- 
- 
+  ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"],
+  ["Poribesh Shikkha Reference", "Dr. Dulal Chandra Santra", "Class XI", "Bengali", "270", "Environmental Studies", "17.5"],
+  ["Samaj Totter Sahaj Path", "Tilak Dutta, Sukanya Dutta, Arindam Dutta", "Class XI", "Bengali", "197", "Sociology", "15"],
+  ["Bangalir Bhasa O Sanskriti", "W.B.H.S Shikkha Sansad", "Class XI", "Bengali", "149", "Bengali", "12.5"],
+  ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"]
 
-  ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"]
 ]; 
 
 //HS: 10 update the sum in audiobooklist.html
@@ -70,9 +69,8 @@ var bookarray_HS = [
   ["Bangla Bhasha O Shilpo Sanskriti Itihaas ", "WBCHSE", "Class XI", "Bengali", "192", "Higher Secondary", "12.5"],
   ["Chaya Proshno Uttor e Sikhkhabigyan", "Dr. Debasis Pal & Dr. Susantanto Kr Sahu", "Class XII", "Bengali", "343", "Higher Secondary", "23"],
   ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"],
-    //2 new books
-    ["WBHA test paper 2023", "Parul Prakasani", "Class X", "Bengali", "1000", " Secondary", "38"],
-    ["WBHA test paper 2023", "Parul Prakasani", "Class XII", "Bengali", "1000", "higher  Secondary", "33"]
+  ["WBHA test paper 2023", "Parul Prakasani", "Class X", "Bengali", "1000", " Secondary", "38"],
+  ["WBHA test paper 2023", "Parul Prakasani", "Class XII", "Bengali", "1000", "higher  Secondary", "33"]
 ]; 
 
 //Sec: 12 update the sum in audiobooklist.html
@@ -88,11 +86,10 @@ var bookarray_S = [
   ["WBTA Test Paper 2021", "Parul Prakashani", "Class X", "Bengali", "577", "Secondary / Madhyamik", "15"],
   ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"],
   ["poribesh o bigyan", "vuiya dhor", "Class xiii", "bengali", "544", "bigyan", "34"],
-
   ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"]
 ]; 
 
-//Other: 1
+//Other: 3
 var bookarray_literature = [
  ["Kapalkundala", "Bankim Chandra Chattopadhyay", "For all", "Bengali", "68", "Literature", "4.5"],
  ["Loko Oitijheyer Dorpone", "Manos Mojumdar ", "For all", "Bengali", "176", "Literature", "7.5"],
