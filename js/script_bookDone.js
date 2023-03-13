@@ -12,7 +12,7 @@ var bookarray_CareerDevelopment = [
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
 ];
 
-//Grad Books: 41 update the sum in audiobooklist.html
+//Grad Books: 44 update the sum in audiobooklist.html
 var bookarray_Graduation = [
 
   ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
@@ -51,15 +51,19 @@ var bookarray_Graduation = [
   ["Biswa Sovyatar Prachin Yug", "Siddhartha Guho Roy and Aparajita Bhattachariya", "Honors Grad", "Bengali", "211", "History", "13.00"],
   ["Rom Arab O Madhya Juger Europe", "Dhrubo Kar and Bumba Dey", "Honors Grad", "Bengali",  "206", "History", "13.40"],
   ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"],
-  ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"],
-  ["Poribesh Shikkha Reference", "Dr. Dulal Chandra Santra", "Class XI", "Bengali", "270", "Environmental Studies", "17.5"],
-  ["Samaj Totter Sahaj Path", "Tilak Dutta, Sukanya Dutta, Arindam Dutta", "Class XI", "Bengali", "197", "Sociology", "15"],
-  ["Bangalir Bhasa O Sanskriti", "W.B.H.S Shikkha Sansad", "Class XI", "Bengali", "149", "Bengali", "12.5"],
-  ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"]
+  ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"]
+  ["Chaya Itihas semester Note", "Dr. Pradip Kumar Mondal", "Graduation", "Bengali", "202", "History", "12.5"],
+  ["Jana Proshason", "Rajashree Basu", "Graduation", "Bengali", "214", "political Science", "12.5"],
+  ["Mughal Amal(Akbar Theke Aurangajeb 1556-1707)", "Samar Kumar Mallik and Swastik Mallik", "Graduation", "Bengali", "577", "History", "38"],
+  ["Banglar Itihas", "Siddhartho Guho Roy and Shreya Roy", "Graduation", "Bengali", "368", "History", "23"], 
+  ["Bamar Bangla Shikkhok", "Tapan Kumar Chattopadhay", "Graduation", "Bengali", "439", "Bengali", "33.5"],
+  ["Rajnitir Tottokotha", "Dipak Kumar Das", "Graduation", "Bengali", "372", "Political Science", "24"],
+  ["Rastra Samaj Rajniti", "Satyabrata Chakrabarty", "Graduation", "Bengali", "494", "Political Science", "32"]
+  
 
 ]; 
 
-//HS: 10 update the sum in audiobooklist.html
+//HS: 14 update the sum in audiobooklist.html
 var bookarray_HS = [
   ["Darshon Sikhyok ", "Bimolendu Samanta", "Class XI", "Bengali", "230", "XI Reference", "20"],
   ["Highlights ", "P K Mukherjee", "Class XII", "English", "833", "Higher Secondary", "40"],
@@ -70,7 +74,11 @@ var bookarray_HS = [
   ["Chaya Proshno Uttor e Sikhkhabigyan", "Dr. Debasis Pal & Dr. Susantanto Kr Sahu", "Class XII", "Bengali", "343", "Higher Secondary", "23"],
   ["WBHA Higher Secondary Test Paper", "Parul Prakasani", "Class XII", "Bengali", "1000", "Higher Secondary", "49"],
   ["WBHA test paper 2023", "Parul Prakasani", "Class X", "Bengali", "1000", " Secondary", "38"],
-  ["WBHA test paper 2023", "Parul Prakasani", "Class XII", "Bengali", "1000", "higher  Secondary", "33"]
+  ["WBHA test paper 2023", "Parul Prakasani", "Class XII", "Bengali", "1000", "higher  Secondary", "33"],
+  ["Poribesh Shikkha Reference", "Dr. Dulal Chandra Santra", "Class XI", "Bengali", "270", "Environmental Studies", "17.5"],
+  ["Samaj Totter Sahaj Path", "Tilak Dutta, Sukanya Dutta, Arindam Dutta", "Class XI", "Bengali", "197", "Sociology", "15"],
+  ["Bangalir Bhasa O Sanskriti", "W.B.H.S Shikkha Sansad", "Class XI", "Bengali", "149", "Bengali", "12.5"],
+  ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"]
 ]; 
 
 //Sec: 12 update the sum in audiobooklist.html
