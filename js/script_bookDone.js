@@ -12,7 +12,7 @@ var bookarray_CareerDevelopment = [
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
 ];
 
-//Grad Books: 44 update the sum in audiobooklist.html
+//Grad Books: 52 update the sum in audiobooklist.html
 var bookarray_Graduation = [
 
   ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
@@ -58,7 +58,17 @@ var bookarray_Graduation = [
   ["Banglar Itihas", "Siddhartho Guho Roy and Shreya Roy", "Graduation", "Bengali", "368", "History", "23"], 
   ["Bamar Bangla Shikkhok", "Tapan Kumar Chattopadhay", "Graduation", "Bengali", "439", "Bengali", "33.5"],
   ["Rajnitir Tottokotha", "Dipak Kumar Das", "Graduation", "Bengali", "372", "Political Science", "24"],
-  ["Rastra Samaj Rajniti", "Satyabrata Chakrabarty", "Graduation", "Bengali", "494", "Political Science", "32"]
+  ["Rastra Samaj Rajniti", "Satyabrata Chakrabarty", "Graduation", "Bengali", "494", "Political Science", "32"],
+
+  ["Bamar Bangla Shikkhok sem VI", "Adhyapak N. Mukhopadhyay", "Graduation", "Bengali", "625", "Bengali", "40"],
+  ["Language Aspect 1", "Prodip Roy", "Graduation", "English", "140", "English Language", "10"],
+  ["Banglar Somikkha Sem I", "Dr. Debesh Kumar Achyarya", "Graduation", "Bengali", "213", "Bengali", "12"],
+  ["Antorjatik Somporker Totto O Biborton", "Gautam Kumar Basu", "Graduation", "Bengali", "196", "Political Science", "12"],
+  ["Rastra chintar Dhara Part 3", "Debasish Chakrabarty", "Graduation", "Bengali", "609", "Political Science", "27"],
+  ["Rastra chintar Dhara Part 2", "Debasish Chakrabarty", "Graduation", "Bengali", "407", "Political Science", "24"],
+  ["Rastra chintar Dhara Part 1", "Debasish Chakrabarty", "Graduation", "Bengali", "346", "Political Science", "19"],
+  ["Banglar Sahitya O Pradesik Sahitya", "PDF", "Graduation", "Bengali", "141", "Bengali", "9"]
+ 
   
 
 ]; 
