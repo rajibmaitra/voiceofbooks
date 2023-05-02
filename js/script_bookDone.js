@@ -12,7 +12,7 @@ var bookarray_CareerDevelopment = [
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
 ];
 
-//Grad Books: 52 update the sum in audiobooklist.html
+//Grad Books: 63 update the sum in audiobooklist.html
 var bookarray_Graduation = [
 
   ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
@@ -59,7 +59,6 @@ var bookarray_Graduation = [
   ["Bamar Bangla Shikkhok", "Tapan Kumar Chattopadhay", "Graduation", "Bengali", "439", "Bengali", "33.5"],
   ["Rajnitir Tottokotha", "Dipak Kumar Das", "Graduation", "Bengali", "372", "Political Science", "24"],
   ["Rastra Samaj Rajniti", "Satyabrata Chakrabarty", "Graduation", "Bengali", "494", "Political Science", "32"],
-
   ["Bamar Bangla Shikkhok sem VI", "Adhyapak N. Mukhopadhyay", "Graduation", "Bengali", "625", "Bengali", "40"],
   ["Language Aspect 1", "Prodip Roy", "Graduation", "English", "140", "English Language", "10"],
   ["Banglar Somikkha Sem I", "Dr. Debesh Kumar Achyarya", "Graduation", "Bengali", "213", "Bengali", "12"],
@@ -67,13 +66,22 @@ var bookarray_Graduation = [
   ["Rastra chintar Dhara Part 3", "Debasish Chakrabarty", "Graduation", "Bengali", "609", "Political Science", "27"],
   ["Rastra chintar Dhara Part 2", "Debasish Chakrabarty", "Graduation", "Bengali", "407", "Political Science", "24"],
   ["Rastra chintar Dhara Part 1", "Debasish Chakrabarty", "Graduation", "Bengali", "346", "Political Science", "19"],
-  ["Banglar Sahitya O Pradesik Sahitya", "PDF", "Graduation", "Bengali", "141", "Bengali", "9"]
+  ["Banglar Sahitya O Pradesik Sahitya", "PDF", "Graduation", "Bengali", "141", "Bengali", "9"],
+  ["Bharat Itihas Parikrama", "Adhyapak Probhatangshu Maiti", "M.A", "Bengali", "898", "History", "40"],
+  ["Marx Engels", "Unknown", "Graduation", "Bengali", "339", "Political Science", "20"],
+  ["Chand Boniker Pala", "Shambhu Mitra", "Graduation", "Bengali", "125", "Bengali", "6"],
+  ["Podi Pisir Bormi Bakso", "Lila Majumder", "Graduation", "Bengali", "64", "Bengali", "2"],
+  ["Sahityer Rupriti O Onnanno Prasanga", "Kuntal Chattopadhayay", "Graduation", "Bengali", "379", "Bengali", "27"],
+  ["Samasamayik Antorjatik Somporko", "Radharamon Chakrabarti and Sukalpa Chakrabarti", "Graduation", "Bengali", "780", "Political Science", "40"],
+  ["Bharate Manabadhikar D.S.E-III(Sem 6)", "Adhyapak Amit Kumar Laha", "Graduation", "Bengali", "48", "Political Science", "3"],
+  ["Bhasha Shikkhaner Koushal(Sem 6)", "Adhyapak Ashim Kumar Mukherjee", "Graduation", "Bengali", "96", "Bengali", "5"],
+  ["Shikhan O Bikash", "Adhyapika Keka Das and Chiranjit Das", "Graduation", "Bengali", "80", "Education", "4"],
+  ["Bangla Sahityer Itihas D.S.E-III(Sem 6)", "Adhyapak Ashim Kumar Mukherjee and Ranjit Kumar Sahis", "Graduation", "Bengali", "128", "Bengali", "8"],
+  ["Uttoroner Pothe Europe 1400-1700", "Pulakesh Roy/Sayonton Das", "Graduation", "Bengali", "559", "History", "32"]
  
-  
-
 ]; 
 
-//HS: 14 update the sum in audiobooklist.html
+//HS: 16 update the sum in audiobooklist.html
 var bookarray_HS = [
   ["Darshon Sikhyok ", "Bimolendu Samanta", "Class XI", "Bengali", "230", "XI Reference", "20"],
   ["Highlights ", "P K Mukherjee", "Class XII", "English", "833", "Higher Secondary", "40"],
@@ -88,7 +96,10 @@ var bookarray_HS = [
   ["Poribesh Shikkha Reference", "Dr. Dulal Chandra Santra", "Class XI", "Bengali", "270", "Environmental Studies", "17.5"],
   ["Samaj Totter Sahaj Path", "Tilak Dutta, Sukanya Dutta, Arindam Dutta", "Class XI", "Bengali", "197", "Sociology", "15"],
   ["Bangalir Bhasa O Sanskriti", "W.B.H.S Shikkha Sansad", "Class XI", "Bengali", "149", "Bengali", "12.5"],
-  ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"]
+  ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"],
+  ["Darshan Bichitra 11 (Roy and Martin)", "Mondal O Sarkar", "Class XI", "Bengali", "240", "Philosophy", "26"],
+  ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XI", "Bengali", "416", "Philosophy", "35"]
+
 ]; 
 
 //Sec: 12 update the sum in audiobooklist.html
