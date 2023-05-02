@@ -51,7 +51,8 @@ var bookarray_Graduation = [
   ["Biswa Sovyatar Prachin Yug", "Siddhartha Guho Roy and Aparajita Bhattachariya", "Honors Grad", "Bengali", "211", "History", "13.00"],
   ["Rom Arab O Madhya Juger Europe", "Dhrubo Kar and Bumba Dey", "Honors Grad", "Bengali",  "206", "History", "13.40"],
   ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"],
-  ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"]
+
+  ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"],
   ["Chaya Itihas semester Note", "Dr. Pradip Kumar Mondal", "Graduation", "Bengali", "202", "History", "12.5"],
   ["Jana Proshason", "Rajashree Basu", "Graduation", "Bengali", "214", "political Science", "12.5"],
   ["Mughal Amal(Akbar Theke Aurangajeb 1556-1707)", "Samar Kumar Mallik and Swastik Mallik", "Graduation", "Bengali", "577", "History", "38"],
