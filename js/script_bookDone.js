@@ -13,7 +13,7 @@ var bookarray_CareerDevelopment = [
 ];
 
 //Grad Books: 63 update the sum in audiobooklist.html
-var bookarray_Graduation = [
+var bookarray_Graduation1 = [
 
   ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
   ["Varoter itihaser adiporbo,1st part pracintomo porbo - 600AD", "Ranbir Chakrabarti", "Graduation", "Bengali", "395", "History OF India:600AD", "19.5"],
@@ -50,7 +50,9 @@ var bookarray_Graduation = [
   ["Boro Somoy Theke Choto Somoy", "Rajkumar Chakrabarty", "Honors Grad", "Bengali", "237", "History", "12.00"],
   ["Biswa Sovyatar Prachin Yug", "Siddhartha Guho Roy and Aparajita Bhattachariya", "Honors Grad", "Bengali", "211", "History", "13.00"],
   ["Rom Arab O Madhya Juger Europe", "Dhrubo Kar and Bumba Dey", "Honors Grad", "Bengali",  "206", "History", "13.40"],
-  ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"],
+  ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"]
+]; 
+var bookarray_Graduation2 = [
 
   ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"],
   ["Chaya Itihas semester Note", "Dr. Pradip Kumar Mondal", "Graduation", "Bengali", "202", "History", "12.5"],
@@ -81,6 +83,7 @@ var bookarray_Graduation = [
   ["Uttoroner Pothe Europe 1400-1700", "Pulakesh Roy/Sayonton Das", "Graduation", "Bengali", "559", "History", "32"]
  
 ]; 
+
 
 //HS: 16 update the sum in audiobooklist.html
 var bookarray_HS = [
@@ -133,7 +136,8 @@ document.write("<div class=\"container\"><div class=\"row\"><h2><br>Career Devel
 cardPrintArray(bookarray_CareerDevelopment);
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Graduation  Audio Books<br></h2><br></div></div>");
-cardPrintArray(bookarray_Graduation);
+cardPrintArray(bookarray_Graduation1);
+cardPrintArray(bookarray_Graduation2);
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Higher Secondary Audio Books<br></h2><br></div></div>");
 cardPrintArray(bookarray_HS);
