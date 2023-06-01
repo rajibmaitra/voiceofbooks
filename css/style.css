@@ -913,6 +913,22 @@ footer .footer-manu ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+.boxesE{
+  border: 2px solid rgb(227, 252, 227);
+  border-radius: 20px; /* 5px rounded corners */
+  width: 1000px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: left;   
+  box-shadow: 0 0 10px silver;
+  transition: 300ms all;
+  background-size: cover;
+  background-position: center;
+
+}
+
 .boxes{
   border: 2px solid rgb(227, 252, 227);
   border-radius: 20px; /* 5px rounded corners */

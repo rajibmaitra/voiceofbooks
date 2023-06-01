@@ -1,5 +1,5 @@
 
-// Career Dev Count 9 :: update the sum in audiobooklist.html
+// Career Dev Count 11 :: update the sum in audiobooklist.html
 var bookarray_CareerDevelopment = [
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
@@ -9,10 +9,13 @@ var bookarray_CareerDevelopment = [
   ["CWBCS General Studies Manual", "Nitin Singhania", "Career Development", "Bengali", "1400", "Competitive Exam", "46"],
   ["Complete Guide to Primary TET ", "Rita Publication", "Career Development", "Bengali", "928", "Competitive Exam/TET", "52.5"],
   ["poribes ", "Dr anish chottyopadhay", "Career Development", "Bengali", "512", "Competitive Exam", "25"],
-  ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"]
+  ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"],
+  ["Manorama Year Book 2023", "Chakrabarty Ghatak Das Moitra Ghosh", "Competitive Exam", "Bengali", "735", "G.K", "55"],
+  ["Swadesh Sobhyota O Biswa", "Jiban Mukhopadhayay", "Competitive Exam", "Bengali", "656", "History", "44"]
+
 ];
 
-//Grad Books: 63 update the sum in audiobooklist.html
+//Grad Books: 73 update the sum in audiobooklist.html
 var bookarray_Graduation1 = [
 
   ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
@@ -80,8 +83,19 @@ var bookarray_Graduation2 = [
   ["Bhasha Shikkhaner Koushal(Sem 6)", "Adhyapak Ashim Kumar Mukherjee", "Graduation", "Bengali", "96", "Bengali", "5"],
   ["Shikhan O Bikash", "Adhyapika Keka Das and Chiranjit Das", "Graduation", "Bengali", "80", "Education", "4"],
   ["Bangla Sahityer Itihas D.S.E-III(Sem 6)", "Adhyapak Ashim Kumar Mukherjee and Ranjit Kumar Sahis", "Graduation", "Bengali", "128", "Bengali", "8"],
-  ["Uttoroner Pothe Europe 1400-1700", "Pulakesh Roy/Sayonton Das", "Graduation", "Bengali", "559", "History", "32"]
+  ["Uttoroner Pothe Europe 1400-1700", "Pulakesh Roy/Sayonton Das", "Graduation", "Bengali", "559", "History", "32"],
  
+  ["Mahabharat(PDF)", "Kashiram Das", "Graduation", "Bengali", "213", "Bengali", "12"],
+  ["Educational Sociology(Shikkhashree Samaj Vigyan)", "Dr. Manjusha Tarafder", "Graduation", "Bengali", "330", "Education", "18"],
+  ["Gabeshana Poddhoti O Rashibigyaner Koushal", "D. Debashish Paul", "Graduation", "Bengali", "340", "Education", "21"],
+  ["Bharater Oitihasik Prasanga(Sidhu-Kanho-)Birsha Vishwavidyalaya", "D. Pradip Kumar Mondal", "Graduation", "Bengali", "96", "History", "6"],
+  ["Madhyajuger Bharat Ditio Khanda(1526-1748)", "Satish Chandra", "M.A", "Bengali", "680", "History", "36"],
+  ["Educational Management(Planning and Administration)", "Biswas, Ali, Molla", "Graduation", "Bengali", "270", "Education", "14"],
+  ["The Idea of the Medieval in the Writing of South Asian  History", "Daud Ali", "M.A", "English", "26", "History", "3"],
+  ["Chaya Poribesh O Bigyan", "Bhuiya Dhar", "Class VII", "Bengali", "404", "Environmental Science", "33"],
+  ["Sociological Foundation of Education", "Chattopadhayay, Chakrabarty, Banerjee", "B.A + M.A", "Bengali", "166", "Education", "10"],
+  ["Sanskrito Sahityer Akadosh Ratna", "Sukhendu Sundor Gangopadhyay", "B.A", "Bengali", "191", "Sanskrit", "15"]
+
 ]; 
 
 
@@ -102,7 +116,7 @@ var bookarray_HS = [
   ["Bangalir Bhasa O Sanskriti", "W.B.H.S Shikkha Sansad", "Class XI", "Bengali", "149", "Bengali", "12.5"],
   ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"],
   ["Darshan Bichitra 11 (Roy and Martin)", "Mondal O Sarkar", "Class XI", "Bengali", "240", "Philosophy", "26"],
-  ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XI", "Bengali", "416", "Philosophy", "35"]
+  ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XII", "Bengali", "416", "Philosophy", "35"]
 
 ]; 
 
@@ -122,20 +136,22 @@ var bookarray_S = [
   ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"]
 ]; 
 
-//Other: 3
+//Other: 4
 var bookarray_literature = [
  ["Kapalkundala", "Bankim Chandra Chattopadhyay", "For all", "Bengali", "68", "Literature", "4.5"],
  ["Loko Oitijheyer Dorpone", "Manos Mojumdar ", "For all", "Bengali", "176", "Literature", "7.5"],
- ["Mayamridonga", "Soid mustafa siraj", "For all", "Bengali", "144", "Literature", "8.5"]
+ ["Mayamridonga", "Soid mustafa siraj", "For all", "Bengali", "144", "Literature", "8.5"],
+ ["Bibhutibhushan Golpo Somogro (Prothom  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "752", "Bengali", "47"]
 ]; 
 
 
 var dynamic = document.querySelector('.container1');  
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Career Development Audio Books<br></h2><br></div></div>");
+//cardPrintArrayElongated(bookarray_CareerDevelopment);
 cardPrintArray(bookarray_CareerDevelopment);
 
-document.write("<div class=\"container\"><div class=\"row\"><h2><br>Graduation  Audio Books<br></h2><br></div></div>");
+document.write("<div class=\"container\"><div class=\"row\"><h2><br>Graduation & Masters Audio Books<br></h2><br></div></div>");
 cardPrintArray(bookarray_Graduation1);
 cardPrintArray(bookarray_Graduation2);
 
@@ -148,6 +164,27 @@ cardPrintArray(bookarray_S);
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Literature<br></h2><br></div></div>");
 cardPrintArray(bookarray_literature);
 
+function cardPrintArrayElongated(bookarray) {
+  for (var i = 0; i < bookarray.length; i++) {
+    //var x = (parseInt(bookarray[i][4]) / 500) * 4000;
+  
+      var fetch = document.querySelector('.container1').innerHTML;  
+      dynamic.innerHTML = fetch + `<div id="cards${i}" class="boxesE">
+        <div class="box-content">
+          <h4>${bookarray[i][0]}</h4> 
+          <h5>
+            Author:  <b> ${bookarray[i][1]}</b>
+            Language: ${bookarray[i][3]} 
+            Book: <b> ${bookarray[i][4]} pages </b>
+            Description: ${bookarray[i][5]}         
+            Duration: <b> ${bookarray[i][6]} Hours </b>
+          </h5>
+        
+        </div>
+      </div>`; 
+  } 
+
+}
 
 
 function cardPrintArray(bookarray) {
