@@ -15,7 +15,8 @@ var bookarray_CareerDevelopment = [
 
 ];
 
-//Grad Books: 73 update the sum in audiobooklist.html
+//Grad Books: 80 update the sum in audiobooklist.html
+//G1 = 36
 var bookarray_Graduation1 = [
 
   ["Adhunik purbo asia-chin o japaner itihas", "Sidhartho guho roy", "Graduation", "Bengali", "472", "History of Chin o Japan", "22.5"],
@@ -54,7 +55,9 @@ var bookarray_Graduation1 = [
   ["Biswa Sovyatar Prachin Yug", "Siddhartha Guho Roy and Aparajita Bhattachariya", "Honors Grad", "Bengali", "211", "History", "13.00"],
   ["Rom Arab O Madhya Juger Europe", "Dhrubo Kar and Bumba Dey", "Honors Grad", "Bengali",  "206", "History", "13.40"],
   ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"]
-]; 
+];
+
+//G2 = 37
 var bookarray_Graduation2 = [
 
   ["Siksha Darshan O <br> Siksha Niti", "Archana Bandyopadhyay", "Honors Grad", "Bengali", "479", "Grad level Text book","30"],
@@ -84,7 +87,6 @@ var bookarray_Graduation2 = [
   ["Shikhan O Bikash", "Adhyapika Keka Das and Chiranjit Das", "Graduation", "Bengali", "80", "Education", "4"],
   ["Bangla Sahityer Itihas D.S.E-III(Sem 6)", "Adhyapak Ashim Kumar Mukherjee and Ranjit Kumar Sahis", "Graduation", "Bengali", "128", "Bengali", "8"],
   ["Uttoroner Pothe Europe 1400-1700", "Pulakesh Roy/Sayonton Das", "Graduation", "Bengali", "559", "History", "32"],
- 
   ["Mahabharat(PDF)", "Kashiram Das", "Graduation", "Bengali", "213", "Bengali", "12"],
   ["Educational Sociology(Shikkhashree Samaj Vigyan)", "Dr. Manjusha Tarafder", "Graduation", "Bengali", "330", "Education", "18"],
   ["Gabeshana Poddhoti O Rashibigyaner Koushal", "D. Debashish Paul", "Graduation", "Bengali", "340", "Education", "21"],
@@ -97,6 +99,17 @@ var bookarray_Graduation2 = [
   ["Sanskrito Sahityer Akadosh Ratna", "Sukhendu Sundor Gangopadhyay", "B.A", "Bengali", "191", "Sanskrit", "15"]
 
 ]; 
+//G3 = 7
+var bookarray_Graduation3 = [
+ ["Bangla Shikkha Poddhoti(Prathomik Shikkhok Sikkhone)", "D. Subimal Mishra", "D. El. Ed", "Bengali", "558", "Education", "27"],
+ ["Shishu Shikkha(Child Studies)", "D. Debashish Paul", "B.A", "Bengali", "334", "Education", "15"],
+ ["Bibhutibhushan Golpo Somogro (Ditio  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "720", "Bengali", "45"],
+ ["Probondho Bichitra", "D. Debesh Kumar Acharya", "M.A", "Bengali", "1160", "Bengali", "72"],
+ ["Sociological Foundation of Education", "Chattopadhyay, Chakrabarty, Banerjee", "B.A + M.A", "Bengali", "166", "Education", "12"],
+ ["Madhyakalin Bharat(Universal Books)", "Sourav Kumar Choube(Anuvadak)", "For All", "Bengali", "450", "History", "35"],
+ ["Europer Itihas(1789-1919)", "Profulla Kumar Chakraborty", "B.A", "Bengali", "479", "History", "30"]
+
+];
 
 
 //HS: 16 update the sum in audiobooklist.html
@@ -116,8 +129,8 @@ var bookarray_HS = [
   ["Bangalir Bhasa O Sanskriti", "W.B.H.S Shikkha Sansad", "Class XI", "Bengali", "149", "Bengali", "12.5"],
   ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"],
   ["Darshan Bichitra 11 (Roy and Martin)", "Mondal O Sarkar", "Class XI", "Bengali", "240", "Philosophy", "26"],
-  ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XII", "Bengali", "416", "Philosophy", "35"]
-
+  ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XII", "Bengali", "416", "Philosophy", "35"],
+   ["Chaya Angso Vittik Proshno Uttor Sanskrit Shikkhok 12", "D. Sanjit Kumar Sadukha", "Class XII", "Bengali", "262", "Sanskrit", "18"]
 ]; 
 
 //Sec: 12 update the sum in audiobooklist.html
@@ -154,6 +167,7 @@ cardPrintArray(bookarray_CareerDevelopment);
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Graduation & Masters Audio Books<br></h2><br></div></div>");
 cardPrintArray(bookarray_Graduation1);
 cardPrintArray(bookarray_Graduation2);
+cardPrintArray(bookarray_Graduation3);
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Higher Secondary Audio Books<br></h2><br></div></div>");
 cardPrintArray(bookarray_HS);
