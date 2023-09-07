@@ -11,8 +11,9 @@ var bookarray_CareerDevelopment = [
   ["poribes ", "Dr anish chottyopadhay", "Career Development", "Bengali", "512", "Competitive Exam", "25"],
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"],
   ["Manorama Year Book 2023", "Chakrabarty Ghatak Das Moitra Ghosh", "Competitive Exam", "Bengali", "735", "G.K", "55"],
-  ["Swadesh Sobhyota O Biswa", "Jiban Mukhopadhayay", "Competitive Exam", "Bengali", "656", "History", "44"]
+  ["Swadesh Sobhyota O Biswa", "Jiban Mukhopadhayay", "Competitive Exam", "Bengali", "656", "History", "44"
 
+]
 ];
 
 //Grad Books: 80 update the sum in audiobooklist.html
