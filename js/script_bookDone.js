@@ -1,5 +1,5 @@
 
-// Career Dev Count 11 :: update the sum in audiobooklist.html
+// Career Dev Count 13 :: update the sum in audiobooklist.html
 var bookarray_CareerDevelopment = [
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
@@ -11,12 +11,13 @@ var bookarray_CareerDevelopment = [
   ["poribes ", "Dr anish chottyopadhay", "Career Development", "Bengali", "512", "Competitive Exam", "25"],
   ["General Studies Handbook", "Jana Banerjee Mondol", "Career Development", "Bengali", "1575", "Competitive Exam", "60"],
   ["Manorama Year Book 2023", "Chakrabarty Ghatak Das Moitra Ghosh", "Competitive Exam", "Bengali", "735", "G.K", "55"],
-  ["Swadesh Sobhyota O Biswa", "Jiban Mukhopadhayay", "Competitive Exam", "Bengali", "656", "History", "44"
+  ["Swadesh Sobhyota O Biswa", "Jiban Mukhopadhayay", "Competitive Exam", "Bengali", "656", "History", "44"],
+  ["Chhaya Bharater Songbidhan O Rajniti" , "Rajib Shrabon" , "Career Development" , "Bengali" , "656" , "Pol Science Competitive Exam", "45"],
+  ["Deb & Dutta's Year Book 2023" , "Deb & Dutta" , "Career Development" , "Bengali" , "1167" , "General Knowledge" , "83"]
 
-]
 ];
 
-//Grad Books: 80 update the sum in audiobooklist.html
+//Grad Books: 99 update the sum in audiobooklist.html
 //G1 = 36
 var bookarray_Graduation1 = [
 
@@ -55,7 +56,7 @@ var bookarray_Graduation1 = [
   ["Boro Somoy Theke Choto Somoy", "Rajkumar Chakrabarty", "Honors Grad", "Bengali", "237", "History", "12.00"],
   ["Biswa Sovyatar Prachin Yug", "Siddhartha Guho Roy and Aparajita Bhattachariya", "Honors Grad", "Bengali", "211", "History", "13.00"],
   ["Rom Arab O Madhya Juger Europe", "Dhrubo Kar and Bumba Dey", "Honors Grad", "Bengali",  "206", "History", "13.40"],
-  ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"]
+  ["Sadharon Bangla Porikroma", "N. Chowdhury", "Honors Grad", "Bengali", "223", "Bengali", "17.00"] 
 ];
 
 //G2 = 37
@@ -100,7 +101,7 @@ var bookarray_Graduation2 = [
   ["Sanskrito Sahityer Akadosh Ratna", "Sukhendu Sundor Gangopadhyay", "B.A", "Bengali", "191", "Sanskrit", "15"]
 
 ]; 
-//G3 = 7
+//G3 = 26
 var bookarray_Graduation3 = [
  ["Bangla Shikkha Poddhoti(Prathomik Shikkhok Sikkhone)", "D. Subimal Mishra", "D. El. Ed", "Bengali", "558", "Education", "27"],
  ["Shishu Shikkha(Child Studies)", "D. Debashish Paul", "B.A", "Bengali", "334", "Education", "15"],
@@ -108,12 +109,34 @@ var bookarray_Graduation3 = [
  ["Probondho Bichitra", "D. Debesh Kumar Acharya", "M.A", "Bengali", "1160", "Bengali", "72"],
  ["Sociological Foundation of Education", "Chattopadhyay, Chakrabarty, Banerjee", "B.A + M.A", "Bengali", "166", "Education", "12"],
  ["Madhyakalin Bharat(Universal Books)", "Sourav Kumar Choube(Anuvadak)", "For All", "Bengali", "450", "History", "35"],
- ["Europer Itihas(1789-1919)", "Profulla Kumar Chakraborty", "B.A", "Bengali", "479", "History", "30"]
+ ["Europer Itihas(1789-1919)", "Profulla Kumar Chakraborty", "B.A", "Bengali", "479", "History", "30"],
+
+
+ ["Bangla Shikkha Poddhoti(Prathomik Shikkhok Sikkhone)" , "D. Subimal Mishra", "D. El. Ed", "Bengali", "558", "Education", "27"],
+ ["Shishu Shikkha(Child Studies)", "D. Debashish Paul", "B.A", "Bengali", "334", "Education", "15"],
+ ["Bibhutibhushan Golpo Somogro (Ditio  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "720", "Bengali", "45"],
+ ["Probondho Bichitra", "D. Debesh Kumar Acharya", "M.A", "Bengali", "1160", "Bengali", "72"],
+ ["Sociological Foundation of Education", "Chattopadhyay, Chakrabarty, Banerjee", "B.A + M.A", "Bengali", "166", "Education", "12"],
+ ["Madhyakalin Bharat(Universal Books)", "Sourav Kumar Choube(Anuvadak)", "For All", "Bengali", "450", "History", "35"],
+ ["Europer Itihas(1789-1919)", "Profulla Kumar Chakraborty", "B.A", "Bengali", "479", "History", "30"],
+ ["Rajnitir Tottyokotha(Ditio Porbo)" , "Dipak Kumar Das" , "Graduation" , "Bengali" , "280" , "Pol Science" , "18"],
+ ["Ontorbhuktimulak Vidyalaya Nirman(4 th Semester)" , "Dr. Udayaditto Bhattachariya" , "Graduation" , "Bengali" , "175" , "Education" , "9"],
+ ["Pathdan O Shikkha Monostotto(Rita Agency)" , "D. Debeshis Paul , D. Debashis Dhar , D. Madhumita Das , D. Paromita Banerjee" , "Graduation" , "Bengali" , "624" , "Education" , "38"],
+ ["Kiran Bangla MIL Barasat University(sem-4)" , "Atanu Adhikary , Mijanur Haque" , "Graduation" , "Bengali" , "140" , "Bengali" , "6"],
+ ["Bamar Bangla Shikkhok Sem IV(Sidho Kanho Birsha University)" , "Tapan Kumar Chattopadhyay" , "Graduation" , "Bengali" , "654" , "Bengali Honors" , "46"],
+ ["Kiran Itihas Kolkata o Barasat Vishwavidyalaya" , "Atanu Adhikari & Soma Ghosh" , "Graduation" , "Bengali" , "128" , "History Honors" , "6"],
+ ["Golpo guccho" , "Rabindranath Tagore" ,  "Graduation" , "Bengali" , "832" , "Bengali Stories" , "60"],
+ ["Mughal Samrajya Uthhan o Pataner Itihas Prothom Khondo " , "Anurudha Roy" , "Graduation" , "Bengali" , "1-714" , "History Honors" , "45"],
+ ["Mughal Samrajya Uthhan o Pataner Itihas Ditio Khondo " , "Anurudha Roy" , "Graduation" , "Bengali" , "715-1444" , "History Honors" , "43"],
+ ["Kiran Rastro Biggan(general) sem-4 Barasat Vishwavidyalaya" , "Atanu Adhikary" ,  "Graduation" , "Bengali" , "111" , "Pol Science Honors" , "6"],
+ ["Marksiyo rashtrochinta" , "Shovonlal Dasgupta" , "Graduation" , "Bengali" , "290" , "290" , "Pol Science Honors" , "14"],
+ ["Shikkhok Shikha(Teacher Education)CBCS" , "Dr. Uday Shankar Kabiraj" , "Graduation" , "Bengali" , "511" , "Education" , "15"]
+
 
 ];
 
 
-//HS: 16 update the sum in audiobooklist.html
+//HS: 18 update the sum in audiobooklist.html
 var bookarray_HS = [
   ["Darshon Sikhyok ", "Bimolendu Samanta", "Class XI", "Bengali", "230", "XI Reference", "20"],
   ["Highlights ", "P K Mukherjee", "Class XII", "English", "833", "Higher Secondary", "40"],
@@ -131,7 +154,10 @@ var bookarray_HS = [
   ["Poribesh Sikkha Reference", "Dr. Dulal Chandra Santra", "Class XII", "Bengali", "242", "Environmental Studies", "17"],
   ["Darshan Bichitra 11 (Roy and Martin)", "Mondal O Sarkar", "Class XI", "Bengali", "240", "Philosophy", "26"],
   ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XII", "Bengali", "416", "Philosophy", "35"],
-   ["Chaya Angso Vittik Proshno Uttor Sanskrit Shikkhok 12", "D. Sanjit Kumar Sadukha", "Class XII", "Bengali", "262", "Sanskrit", "18"]
+  ["Chaya Angso Vittik Proshno Uttor Sanskrit Shikkhok 12", "D. Sanjit Kumar Sadukha", "Class XII", "Bengali", "262", "Sanskrit", "18"],
+
+  ["Political Science Class 12 (WBCORS)" , "West Bengal Rabindra Mukta Vidyalaya Sansad" , "Class XII" , "Bengali" , "189" , "Political Science Text Book" , "13"]
+
 ]; 
 
 //Sec: 12 update the sum in audiobooklist.html
