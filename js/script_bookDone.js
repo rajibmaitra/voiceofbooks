@@ -1,5 +1,5 @@
 
-// Career Dev Count 13 :: update the sum in audiobooklist.html
+// Career Dev Count 16 :: update the sum in audiobooklist.html
 var bookarray_CareerDevelopment = [
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
@@ -13,11 +13,15 @@ var bookarray_CareerDevelopment = [
   ["Manorama Year Book 2023", "Chakrabarty Ghatak Das Moitra Ghosh", "Competitive Exam", "Bengali", "735", "G.K", "55"],
   ["Swadesh Sobhyota O Biswa", "Jiban Mukhopadhayay", "Competitive Exam", "Bengali", "656", "History", "44"],
   ["Chhaya Bharater Songbidhan O Rajniti" , "Rajib Shrabon" , "Career Development" , "Bengali" , "656" , "Pol Science Competitive Exam", "45"],
-  ["Deb & Dutta's Year Book 2023" , "Deb & Dutta" , "Career Development" , "Bengali" , "1167" , "General Knowledge" , "83"]
+  ["Deb & Dutta's Year Book 2023" , "Deb & Dutta" , "Career Development" , "Bengali" , "1167" , "General Knowledge" , "83"],
+  ["Complete Guide to Primary Tet", "Rita Publication", "Career Development", "Bengali", "836", "Competitive Exam/TET", "95"],
+  ["Chhaya Primary Tet Challenger", "Chhaya Prokashoni", "Career Development", "Bengali", "728", "Competitive Exam/TET", "60"],
+  ["Success Master Primary Tet Scanner", "Aheli Publishers", "Career Development", "Bengali", "622", "Competitive Exam/TET", "52"]
+
 
 ];
 
-//Grad Books: 99 update the sum in audiobooklist.html
+//Grad Books: 111 update the sum in audiobooklist.html
 //G1 = 36
 var bookarray_Graduation1 = [
 
@@ -101,7 +105,7 @@ var bookarray_Graduation2 = [
   ["Sanskrito Sahityer Akadosh Ratna", "Sukhendu Sundor Gangopadhyay", "B.A", "Bengali", "191", "Sanskrit", "15"]
 
 ]; 
-//G3 = 26
+//G3 = 38
 var bookarray_Graduation3 = [
  ["Bangla Shikkha Poddhoti(Prathomik Shikkhok Sikkhone)", "D. Subimal Mishra", "D. El. Ed", "Bengali", "558", "Education", "27"],
  ["Shishu Shikkha(Child Studies)", "D. Debashish Paul", "B.A", "Bengali", "334", "Education", "15"],
@@ -110,8 +114,6 @@ var bookarray_Graduation3 = [
  ["Sociological Foundation of Education", "Chattopadhyay, Chakrabarty, Banerjee", "B.A + M.A", "Bengali", "166", "Education", "12"],
  ["Madhyakalin Bharat(Universal Books)", "Sourav Kumar Choube(Anuvadak)", "For All", "Bengali", "450", "History", "35"],
  ["Europer Itihas(1789-1919)", "Profulla Kumar Chakraborty", "B.A", "Bengali", "479", "History", "30"],
-
-
  ["Bangla Shikkha Poddhoti(Prathomik Shikkhok Sikkhone)" , "D. Subimal Mishra", "D. El. Ed", "Bengali", "558", "Education", "27"],
  ["Shishu Shikkha(Child Studies)", "D. Debashish Paul", "B.A", "Bengali", "334", "Education", "15"],
  ["Bibhutibhushan Golpo Somogro (Ditio  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "720", "Bengali", "45"],
@@ -130,13 +132,25 @@ var bookarray_Graduation3 = [
  ["Mughal Samrajya Uthhan o Pataner Itihas Ditio Khondo " , "Anurudha Roy" , "Graduation" , "Bengali" , "715-1444" , "History Honors" , "43"],
  ["Kiran Rastro Biggan(general) sem-4 Barasat Vishwavidyalaya" , "Atanu Adhikary" ,  "Graduation" , "Bengali" , "111" , "Pol Science Honors" , "6"],
  ["Marksiyo rashtrochinta" , "Shovonlal Dasgupta" , "Graduation" , "Bengali" , "290" , "290" , "Pol Science Honors" , "14"],
- ["Shikkhok Shikha(Teacher Education)CBCS" , "Dr. Uday Shankar Kabiraj" , "Graduation" , "Bengali" , "511" , "Education" , "15"]
+ ["Shikkhok Shikha(Teacher Education)CBCS" , "Dr. Uday Shankar Kabiraj" , "Graduation" , "Bengali" , "511" , "Education" , "15"],
 
-
+ ["Bangla Bhasa Parikrama Part-1", "Poresh Chandra Majumder", "Graduation", "Bengali", "275", "Bengali literature", "20"],
+ ["Bangla Bhasa Parikrama Part-2", "Poresh Chandra Majumder", "Graduation", "Bengali", "621", "Bengali literature", "23.5"],
+ ["Bangla Alonkar Rup o Swarup", "Mihir Choudhury kemila", "Graduation", "Bengali", "224", "Bengali literature", "10"], 
+ ["Kabbo Jiggasha", "Atulchandra Gupta", "Graduation", "Bengali", "96", "Bengali literature", "7"],
+ ["Notun Chandda Porikrama", "Probodh Chandra Sen", "Graduation", "Bengali", "309", "Bengali literature", "16"],
+ ["Bharatiyo Rashtrachintar Bikas o Rajnoitik Andolon", "Radharomon Chakraborti", "Graduation", "Political Science", "740", "Indian thoughts of state development", "37"],
+ ["Bharatborsho Rastra Bhabona", "Satyabrata Chakrabarty", "Graduation", "Political Science", "398", "Indian thoughts of state", "23"],
+ ["Bhartiya Prashasan", "Shiuli Sarkar", "Graduation", "Political Science", "228", "Indian administration", "9.5"],
+ ["Bharat O Poschimbonger Bhugol", "Kartick Chandra Mondal", "Graduation", "Geography", "239", "Geography of India and West Bengal", "57"],
+ ["B.ed Scanner Sem-II", "Asim Kumar Mahanti Debobroto Sarkar", "Graduation", "Bengali", "704", "Education", "31"],
+ ["Mughal Samrajya Uthan o Potoner Itihas prothom khanda", "Anirudha Roy", "Graduation", "History", "714", "History of Mughal Empire", "45"],
+ ["Mughal Samrajya  Uthan o Potoner Itihas ditiya khanda", "Anirudha Roy", "Graduation", "History", "1444", "History of Mughal Empire", "43"]
+ 
 ];
 
 
-//HS: 18 update the sum in audiobooklist.html
+//HS: 20 update the sum in audiobooklist.html
 var bookarray_HS = [
   ["Darshon Sikhyok ", "Bimolendu Samanta", "Class XI", "Bengali", "230", "XI Reference", "20"],
   ["Highlights ", "P K Mukherjee", "Class XII", "English", "833", "Higher Secondary", "40"],
@@ -155,8 +169,10 @@ var bookarray_HS = [
   ["Darshan Bichitra 11 (Roy and Martin)", "Mondal O Sarkar", "Class XI", "Bengali", "240", "Philosophy", "26"],
   ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XII", "Bengali", "416", "Philosophy", "35"],
   ["Chaya Angso Vittik Proshno Uttor Sanskrit Shikkhok 12", "D. Sanjit Kumar Sadukha", "Class XII", "Bengali", "262", "Sanskrit", "18"],
+  ["Political Science Class 12 (WBCORS)" , "West Bengal Rabindra Mukta Vidyalaya Sansad" , "Class XII" , "Bengali" , "189" , "Political Science Text Book" , "13"],
 
-  ["Political Science Class 12 (WBCORS)" , "West Bengal Rabindra Mukta Vidyalaya Sansad" , "Class XII" , "Bengali" , "189" , "Political Science Text Book" , "13"]
+  ["Smart English", "Dr P C Dhar", "Class XII", "English", "648", "XII Reference", "45"],
+  ["Chhaya Sanskrit Reference", "Sanjit Kumar Sadhukhan", "Class XI", "Sanskrit", "403", "XI Reference", "40"]
 
 ]; 
 
@@ -176,12 +192,16 @@ var bookarray_S = [
   ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"]
 ]; 
 
-//Other: 4
+//Other: 6
 var bookarray_literature = [
  ["Kapalkundala", "Bankim Chandra Chattopadhyay", "For all", "Bengali", "68", "Literature", "4.5"],
  ["Loko Oitijheyer Dorpone", "Manos Mojumdar ", "For all", "Bengali", "176", "Literature", "7.5"],
  ["Mayamridonga", "Soid mustafa siraj", "For all", "Bengali", "144", "Literature", "8.5"],
- ["Bibhutibhushan Golpo Somogro (Prothom  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "752", "Bengali", "47"]
+ ["Bibhutibhushan Golpo Somogro (Prothom  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "752", "Bengali", "47"],
+
+ ["Bartaman Bharat", "Swami Vivekananda","For all", "Bengali", "42", "Literature", "2"],
+ ["Golpo guccho", "Rabindranath Tagore","For all", "Bengali", "832", "Literature", "60"]
+
 ]; 
 
 
