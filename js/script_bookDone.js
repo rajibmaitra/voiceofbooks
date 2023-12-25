@@ -1,5 +1,5 @@
 
-// Career Dev Count 16 :: update the sum in audiobooklist.html
+// Career Dev Count 16+3=19 :: update the sum in audiobooklist.html
 var bookarray_CareerDevelopment = [
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
@@ -16,9 +16,12 @@ var bookarray_CareerDevelopment = [
   ["Deb & Dutta's Year Book 2023" , "Deb & Dutta" , "Career Development" , "Bengali" , "1167" , "General Knowledge" , "83"],
   ["Complete Guide to Primary Tet", "Rita Publication", "Career Development", "Bengali", "836", "Competitive Exam/TET", "95"],
   ["Chhaya Primary Tet Challenger", "Chhaya Prokashoni", "Career Development", "Bengali", "728", "Competitive Exam/TET", "60"],
-  ["Success Master Primary Tet Scanner", "Aheli Publishers", "Career Development", "Bengali", "622", "Competitive Exam/TET", "52"]
+  ["Success Master Primary Tet Scanner", "Aheli Publishers", "Career Development", "Bengali", "622", "Competitive Exam/TET", "52"],
 
-
+  ["General Knowledge 2023(Tarun Goyal)", "Tarun Goyal", "Career Development", "English", "544", "Competitive Exam", "50"],
+  ["General Knowledge", "Tapati Publishers", "Career Development", "Bengali", "800", "Competitive Exam/TET", "69"],
+  ["Sadharan Gyan", "Kiran Publishers", "Career Development", "Bengali", "768", "Competitive Exam/TET", "44"]
+  
 ];
 
 //Grad Books: 111 update the sum in audiobooklist.html
@@ -133,7 +136,6 @@ var bookarray_Graduation3 = [
  ["Kiran Rastro Biggan(general) sem-4 Barasat Vishwavidyalaya" , "Atanu Adhikary" ,  "Graduation" , "Bengali" , "111" , "Pol Science Honors" , "6"],
  ["Marksiyo rashtrochinta" , "Shovonlal Dasgupta" , "Graduation" , "Bengali" , "290" , "290" , "Pol Science Honors" , "14"],
  ["Shikkhok Shikha(Teacher Education)CBCS" , "Dr. Uday Shankar Kabiraj" , "Graduation" , "Bengali" , "511" , "Education" , "15"],
-
  ["Bangla Bhasa Parikrama Part-1", "Poresh Chandra Majumder", "Graduation", "Bengali", "275", "Bengali literature", "20"],
  ["Bangla Bhasa Parikrama Part-2", "Poresh Chandra Majumder", "Graduation", "Bengali", "621", "Bengali literature", "23.5"],
  ["Bangla Alonkar Rup o Swarup", "Mihir Choudhury kemila", "Graduation", "Bengali", "224", "Bengali literature", "10"], 
@@ -149,6 +151,21 @@ var bookarray_Graduation3 = [
  
 ];
 
+//G4 = 12 
+var bookarray_Graduation4 = [
+  ["Engraji sahityer sankhipta itihas", "Dr.Debeskumar Acharya", "Graduation", "English", "112", "History of English Literature", "25"],
+  ["Bamar Bangla Shikkhok", "Tapan Kumar Chattopadhyay", "Graduation", "Bengali", "439", "Bengali Reference", "29"],
+  ["General Knowledge 2023(Tarun Goyal)", "Tarun Goyal", "Graduation", "Bengali", "439", "Bengali Reference", "29"],
+  ["Prosongo Rastro Biggan", "Dipika Majumder", "Graduation", "Political Science", "549", "Political Science", "34"],
+  ["Samakalin Biswa o Antorjatik Somporko", " Subodh Kumar Mukhapadhaya", "Graduation", "Political Science", "582", "Bengali Reference", "38"],
+  ["Bikas o Shikhoner Monostotto", "Dr.Jayanta Mete Dr.Ruma Deb Dr.Birajlakshmi Ghosh", "Graduation", "Psychology", "382", "Bengali Reference", "29"],
+  ["B.ED Scanner Sem-IV", "ASim Kumar Mahanti Debobroto Sarkar", "Graduation", "Bengali", "512", "COMPETITIVE EXAM", "32"],
+  ["Sadharon Vasa Bigyan o Bangla Vasa", " Dr.  Rameswar sh'", "Graduation", "Bengali", "799", "BENGALI", "45"],
+  ["Bharatio Shikhar Itihas", "Dr.Mihir Kumar Chattapadhay  Dr.Pranab Kumar Chakrabarty Dr. Deboshree Banerjee ", "Graduation", "Bengali", "240", "History", "14"],
+  ["Manabadhikar Shikha", "Pranab Kumar Chakrabarty  ", "Graduation", "Bengali", "176", "EDUCATION", "12"],
+  ["Madhya Juger Europe ", "Nirmal Chandra Dutta", "Graduation", "Bengali", "370", "HISTORY", "23"],
+  ["Naribad", "Rajashree Basu", "Graduation", "Bengali", "106", "HISTORY", "370"]
+];
 
 //HS: 20 update the sum in audiobooklist.html
 var bookarray_HS = [
@@ -192,16 +209,18 @@ var bookarray_S = [
   ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"]
 ]; 
 
-//Other: 6
+//Other: 8
 var bookarray_literature = [
  ["Kapalkundala", "Bankim Chandra Chattopadhyay", "For all", "Bengali", "68", "Literature", "4.5"],
  ["Loko Oitijheyer Dorpone", "Manos Mojumdar ", "For all", "Bengali", "176", "Literature", "7.5"],
  ["Mayamridonga", "Soid mustafa siraj", "For all", "Bengali", "144", "Literature", "8.5"],
  ["Bibhutibhushan Golpo Somogro (Prothom  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "752", "Bengali", "47"],
-
  ["Bartaman Bharat", "Swami Vivekananda","For all", "Bengali", "42", "Literature", "2"],
- ["Golpo guccho", "Rabindranath Tagore","For all", "Bengali", "832", "Literature", "60"]
+ ["Golpo guccho", "Rabindranath Tagore","For all", "Bengali", "832", "Literature", "60"],
 
+ ["Tungabhadrar tire", "Saradindu Bandhapadhay","For all", "Bengali", "135", "Literature", "7"],
+ ["Kalbela", "Smaresh Majumder ","For all", "Bengali", "632", "Literature", "23"]
+ 
 ]; 
 
 
@@ -215,6 +234,7 @@ document.write("<div class=\"container\"><div class=\"row\"><h2><br>Graduation &
 cardPrintArray(bookarray_Graduation1);
 cardPrintArray(bookarray_Graduation2);
 cardPrintArray(bookarray_Graduation3);
+cardPrintArray(bookarray_Graduation4);
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Higher Secondary Audio Books<br></h2><br></div></div>");
 cardPrintArray(bookarray_HS);
