@@ -897,7 +897,7 @@ footer .footer-manu ul li a:hover {
   text-align: left;
 }
 
-
+.is-hidden { display: none; }
 
 /*---------------------------------------------
 					Adopt a book script
