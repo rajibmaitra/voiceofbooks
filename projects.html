@@ -1,24 +1,329 @@
---- 
-layout: default 
-title: Audio Library
---- 
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voice of Books </title>
+    <link rel="icon" href="img/logo-small.png" sizes="32x32" type="image/png">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %} {{ site.description }} {% endif%}">
     
+    <base href="{{ site.url }}">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/min/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/google-map-init.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    
+    <script src="js/main.js"></script>
+
+
+  </head>
+  <body>
+
+
+
+    <!-- Header Start -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <!-- header Nav Start 
+          {% include nav.html %}-->
+
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png" alt="Logo">
+                </a>
+              </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a> </li></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="audiobooks.html">Books</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+        
+
+        </div>
+        </div>
+      </div>
+    </header><!-- header close -->
+
+
+
+ 
     <!-- Slider Start -->
-    {% include subpage-header.html %}
+            <!-- Slider Start -->
+            <section id="global-header">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="block">
+                        <h1>Audio Library</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
     
     <!-- Project Start -->
 
-    {% include project-category.html %} 
+    <section id="service">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Our Goals</h2>
+              <p> "Audiobook is the only way to help advancing vision impaired students” <br>
+                   – Tarak Chandra, School Teacher in History, Blind from Birth</p>
+                   <p><br></p>
+                   <h3>Create audio books covering the whole spectrum</h3>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="img/books1.jpg" alt="Book Levels" width="300" height="300">
+                <p><strong>Audio Books for : </strong></p>
+                <p><strong>10th Grade<br>
+                   12th Grade<br>
+                   Graduation<br>
+                   Competitive Exam<br>
+                   Professional Course</strong></p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="img/books2.jpg" alt="Subjects" width="300" height="300">
+                <p></p>
+                <p><strong>Books for : </strong></p>
+                <p><strong>Bengali <br>
+                   English<br>
+                   Philosophy<br>
+                   History <br>
+                   Political Science<br>
+                   Test Papers<br>
+                   Job Examination</strong></p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="img/books3.jpg" alt="Distribution" width="300" height="300">
+                <p></p>
+                <p><strong>DIstribution of Audio Books : </strong></p>
+                <p><strong>CD<br>
+                   DVD<br>
+                   pen drive<br>
+                   mp3<br>
+                   streaming audio<br>
+                   magnetic tape</strong></p>
+              </div>
+            </div> 
+            
+          </div>
+        </div>
+      </section>
 
-    {% include project-team.html %} 
 
-    {% include project-cost.html %} 
+    <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>There is a Hope</h2>
+          <h3>... and few brave souls</h3>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="img/tarakteam1.jpg" alt="The souls" width="300" height="300">
+            <p><strong>Students </strong></p>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="thumbnail">
+            <img src="img/tarak-abp.jpg" alt="Subjects" width="800" height="400">
+            <p></p>
+            <p><strong>... and the Teacher </strong></p>
+            <p><strong>Anandabazar Patrika, January 16, 2021 <br></strong></p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
 
-    <!-- Portfolio Start 
-    {% include portfolio.html %}
+  <section id="teamwork">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>The work has began since February 2021 </h2>
+          <h3>   <strong>Prerana Audio Library,</strong> <br>
+          Audio Book recording and distribution </h3>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-sm-8">
+          <div class="thumbnail">
+            <img src="img/recording.jpg" alt="The soulds" width="600" height="400">
+            <p><strong><br>Reader Swagata Bhowmick <br> 
+              Book WBCS General Studies Manual </strong></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="img/distribution.jpg" alt="Subjects" width="400" height="400">
+            <p></p>
+            <p><strong>Donation of Audio Book <br>
+                       Student: Rakesh Pal Chowdhury, Class 12 </strong></p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
 
-     Clients Logo Section Start 
-    {% include clients.html %} -->
+
+    <section id="cost">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Initial cost analysis</h2>
+          <h3>Limited resources are available, but need a lot more to sustain</h3>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <img src="img/cost1.jpg" alt="The souls" width="400" height="400">
+            <p></p>
+            <h4><strong>Funds attained from generous donors </strong></h4>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <img src="img/cost2.jpg" alt="Subjects" width="400" height="400">
+            <p></p>
+            <h4><strong>Actual cost from initial 2 months </strong></h4>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <p></p>
+          <h2>Cost of recording one book</h2>
+          <h3>a case study</h3>
+          <h4><strong>Average cost of making one book is Rs. 4000  </strong></h4>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-sm-12">
+          <div class="thumbnail">
+            <img src="img/cost-per-book.jpg" alt="The soulds" width="1200" height="600">
+            <p>
+              <br>
+              <br>
+            </p>
+            
+          </div>
+        </div>  
+        
+      </div>
+    </div>
+  </section>
+
+
+
+    
 
     <!-- Call to action Start -->
-    {% include call-to-acion.html %}
+    <section id="call-to-action">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="block">
+                <h2>Know the community of Vision Impaired Students</h2>
+                <p>and be part of the community</p>
+                <a class="btn btn-default btn-call-to-action" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550" >Visit us on Facebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+ 
+    <!-- footer Start -->
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+                 <!-- header Nav Start 
+                 {% include footer-nav.html %}-->
+                 <div class="footer-manu">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="get-involved.html">Support us</a></li>
+                    <li><a href="projects.html">Know our projects</a></li>
+                  </ul>
+                </div>
+              
+
+
+              <p>Copyright &copy; Design & Developed by Voice of Books Team. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+              
+              
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+              
+      
+      </body>
+  </html>

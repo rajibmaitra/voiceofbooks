@@ -1,5 +1,5 @@
 
-// Career Dev Count 16+3=19 :: update the sum in audiobooklist.html
+// Career Dev Count 19+2=21 :: update the sum in audiobooklist.html
 var bookarray_CareerDevelopment = [
   ["Teaching Aptitude ", "WBSC", "Career Development", "English", "100", "Competitive Exam", "8.5"], 
   ["Achievers year book 2022 ", "Collector's Handbook", "Career Development", "Bengali", "464", "Competitive Exam", "30"], 
@@ -17,10 +17,12 @@ var bookarray_CareerDevelopment = [
   ["Complete Guide to Primary Tet", "Rita Publication", "Career Development", "Bengali", "836", "Competitive Exam/TET", "95"],
   ["Chhaya Primary Tet Challenger", "Chhaya Prokashoni", "Career Development", "Bengali", "728", "Competitive Exam/TET", "60"],
   ["Success Master Primary Tet Scanner", "Aheli Publishers", "Career Development", "Bengali", "622", "Competitive Exam/TET", "52"],
-
   ["General Knowledge 2023(Tarun Goyal)", "Tarun Goyal", "Career Development", "English", "544", "Competitive Exam", "50"],
   ["General Knowledge", "Tapati Publishers", "Career Development", "Bengali", "800", "Competitive Exam/TET", "69"],
-  ["Sadharan Gyan", "Kiran Publishers", "Career Development", "Bengali", "768", "Competitive Exam/TET", "44"]
+  ["Sadharan Gyan", "Kiran Publishers", "Career Development", "Bengali", "768", "Competitive Exam/TET", "44"],
+  ["General Knowledge(Bengali)", "Tarun Goyal", "Career Development", "Bengali", "592", "Competitive Exam/TET", "33"],
+  ["Railway Recruitment Challenger", "Chhaya", "Career Development", "Bengali", "902", "Competitive Exam/TET", "38"]
+
   
 ];
 
@@ -151,7 +153,7 @@ var bookarray_Graduation3 = [
  
 ];
 
-//G4 = 12 
+//G4 = 12+8 = 20 
 var bookarray_Graduation4 = [
   ["Engraji sahityer sankhipta itihas", "Dr.Debeskumar Acharya", "Graduation", "English", "112", "History of English Literature", "25"],
   ["Bamar Bangla Shikkhok", "Tapan Kumar Chattopadhyay", "Graduation", "Bengali", "439", "Bengali Reference", "29"],
@@ -164,7 +166,17 @@ var bookarray_Graduation4 = [
   ["Bharatio Shikhar Itihas", "Dr.Mihir Kumar Chattapadhay  Dr.Pranab Kumar Chakrabarty Dr. Deboshree Banerjee ", "Graduation", "Bengali", "240", "History", "14"],
   ["Manabadhikar Shikha", "Pranab Kumar Chakrabarty  ", "Graduation", "Bengali", "176", "EDUCATION", "12"],
   ["Madhya Juger Europe ", "Nirmal Chandra Dutta", "Graduation", "Bengali", "370", "HISTORY", "23"],
-  ["Naribad", "Rajashree Basu", "Graduation", "Bengali", "106", "HISTORY", "370"]
+  ["Naribad", "Rajashree Basu", "Graduation", "Bengali", "106", "HISTORY", "370"],
+
+  ["Otiter Ujjwal Bharat", "Bratindra Nath Mukhopadhyay", "Graduation", "Bengali", "631", "The Bright Past of India", "35"],
+  ["Dhorai Charit Manas", "Satinath bhaduri", "Graduation", "Bengali", "277", "Bengali", "14"],
+  ["Chiner Rupantorer Itihas", "Amit Bhattcharjee", "Graduation", "History", "246", "History of Chin", "17"],
+  ["Nattakar Madhusudan o Krishnakumari", "Dr. Ajit Kumar Bandopadhyay", "Graduation", "Bengali", "263", "Bengali literature", "17"],
+  ["Engraji sahityer sankhipta itihas", "Dr. Debeskumar Acharya", "Graduation", "Bengali", "112", "History of English literature", "11"],
+  ["Sahitter poth sahitter patheo", "Hiren Chattapadhyay", "Graduation", "Bengali", "224", "Bengali literature", "21"],
+  ["Bharat Barsher Itihas (1000 - 1526)", "Romila Thapar", "Graduation", "Bengali", "264", "History of India", "16"],
+  ["Bharatiya Prosason", "Mohit Bhattacharjee and Ashit Basu", "Graduation", "Political Science", "334", "History of India", "22"]
+ 
 ];
 
 //HS: 20 update the sum in audiobooklist.html
@@ -187,9 +199,13 @@ var bookarray_HS = [
   ["Darshan Bichitra 12 (Roy and Martin)", "Mondal O Sarkar", "Class XII", "Bengali", "416", "Philosophy", "35"],
   ["Chaya Angso Vittik Proshno Uttor Sanskrit Shikkhok 12", "D. Sanjit Kumar Sadukha", "Class XII", "Bengali", "262", "Sanskrit", "18"],
   ["Political Science Class 12 (WBCORS)" , "West Bengal Rabindra Mukta Vidyalaya Sansad" , "Class XII" , "Bengali" , "189" , "Political Science Text Book" , "13"],
-
   ["Smart English", "Dr P C Dhar", "Class XII", "English", "648", "XII Reference", "45"],
-  ["Chhaya Sanskrit Reference", "Sanjit Kumar Sadhukhan", "Class XI", "Sanskrit", "403", "XI Reference", "40"]
+  ["Chhaya Sanskrit Reference", "Sanjit Kumar Sadhukhan", "Class XI", "Sanskrit", "403", "XI Reference", "40"],
+
+  ["Applied English Grammar and Composition", "P.c.Das", "Class XII", "English", "611", "XII Reference", "55"],
+  ["WBHA Higher Secondary Test Paper", "WBHA", "Class XII", "Bengali", "449", "XII Test Paper", "68"],
+  ["Tripura Higher secondary solutions 2024", "Tripura", "Class XII", "English", "622", "XII Reference", "37"]
+
 
 ]; 
 
@@ -206,7 +222,11 @@ var bookarray_S = [
   ["WBTA Test Paper 2021", "Parul Prakashani", "Class X", "Bengali", "577", "Secondary / Madhyamik", "15"],
   ["WBBSE & CBSE Chemistry", "Asim Kumar & Debabrata Sarkar", "Class X", "Bengali", "250", "Secondary / Madhyamik", "6.5"],
   ["poribesh o bigyan", "vuiya dhor", "Class xiii", "bengali", "544", "bigyan", "34"],
-  ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"]
+  ["Chaya English Tutor", "Satyajit Bosu & Koushik kr Maiti", "Class X", "English", "452", "Secondary / Madhyamik", "26"],
+
+  ["ABTA (10TH) 2023-2024", "ABTA", "Class X", "Bengali", "1089", "Madhyamik", "129"],
+  ["Tripura Madhyamik Solution", "Tripura", "Class X", "Bengali", "841", "Madhyamik", "37"]
+
 ]; 
 
 //Other: 8
@@ -217,19 +237,28 @@ var bookarray_literature = [
  ["Bibhutibhushan Golpo Somogro (Prothom  Khondo)", "Bibhutibhushan Bandyopadhyay", "For All", "Bengali", "752", "Bengali", "47"],
  ["Bartaman Bharat", "Swami Vivekananda","For all", "Bengali", "42", "Literature", "2"],
  ["Golpo guccho", "Rabindranath Tagore","For all", "Bengali", "832", "Literature", "60"],
-
  ["Tungabhadrar tire", "Saradindu Bandhapadhay","For all", "Bengali", "135", "Literature", "7"],
- ["Kalbela", "Smaresh Majumder ","For all", "Bengali", "632", "Literature", "23"]
+ ["Kalbela", "Smaresh Majumder ","For all", "Bengali", "632", "Literature", "23"],
+
+["Nil darpan", "Dinabandhu Mitra", "For all", "Bengali", "120", "Literature", "6"],
+["Padma nadir majhi", "Tapan Kumar Bhattacharjee", "For all", "Bengali", "112", "Literature", "22"],
+["Titas Ekti Nadir Naam", "Adoito Mallabarman", "For all", "Bengali", "240", "Literature", "12"],
+["Putul  Nacher Itikotha", "Manik Bandopadhyay", "For all", "Bengali", "222", "Literature", "10"],
+["Ferrari Fauj", "Utpal Dutta", "For all", "Bengali", "87", "Literature", "6"],
+["Grihodaho", "Sharat Chandra Chattapadhya", "For all", "Bengali", "224", "Literature", "13"],
+["Nabanna", "Bijan Bhattacherjee", "For all", "Bengali", "166", "Literature", "13"],
+["He Purno Tobo Choroner Kache", "Nabanita Debsen", "For all", "Bengali", "128", "Literature", "8"]
+
  
 ]; 
 
 
 var dynamic = document.querySelector('.container1');  
 
-document.write("<label for=\"searchbox\">Search</label><input type=\"search\" oninput=\"liveSearch()\" id=\"searchbox\">")
+//document.write("<label for=\"searchbox\">Search</label><input type=\"search\" oninput=\"liveSearch()\" id=\"searchbox\">")
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Career Development Audio Books<br></h2><br></div></div>");
-//cardPrintArrayElongated(bookarray_CareerDevelopment);
+
 cardPrintArray(bookarray_CareerDevelopment);
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Graduation & Masters Audio Books<br></h2><br></div></div>");
@@ -246,28 +275,6 @@ cardPrintArray(bookarray_S);
 
 document.write("<div class=\"container\"><div class=\"row\"><h2><br>Literature<br></h2><br></div></div>");
 cardPrintArray(bookarray_literature);
-
-function cardPrintArrayElongated(bookarray) {
-  for (var i = 0; i < bookarray.length; i++) {
-    //var x = (parseInt(bookarray[i][4]) / 500) * 4000;
-  
-      var fetch = document.querySelector('.container1').innerHTML;  
-      dynamic.innerHTML = fetch + `<div id="cards${i}" class="boxesE">
-        <div class="box-content">
-          <h4>${bookarray[i][0]}</h4> 
-          <h5>
-            Author:  <b> ${bookarray[i][1]}</b>
-            Language: ${bookarray[i][3]} 
-            Book: <b> ${bookarray[i][4]} pages </b>
-            Description: ${bookarray[i][5]}         
-            Duration: <b> ${bookarray[i][6]} Hours </b>
-          </h5>
-        
-        </div>
-      </div>`; 
-  } 
-
-}
 
 
 function cardPrintArray(bookarray) {
@@ -288,16 +295,6 @@ function cardPrintArray(bookarray) {
         
         </div>
       </div>`; 
-  
-      //if ((i+1)%3 == 0)
-
-     //Grade: ${bookarray[i][2]}  <br>
-     //<a class="showmore" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550">Let's connect in FB</a>
- 
-      //  <br>
-
-      //var bgimg = document.getElementById(`cards${i}`);
-      //bgimg.style.backgroundImage = `url('img/logo-small.png.jpg')`;
   } 
 
 }
@@ -310,7 +307,7 @@ function liveSearch() {
   // Loop through the cards
   for (var i = 0; i < cards.length; i++) {
     // If the text is within the card...
-    if(cards[i].innerText.toLowerCase()
+    if(cards[i].innerHTML.toLowerCase()
       // ...and the text matches the search query...
       .includes(search_query.toLowerCase())) {
         // ...remove the `.is-hidden` class.
