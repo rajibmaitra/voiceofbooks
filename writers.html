@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voice of Books </title>
+    <link rel="icon" href="img/logo-small.png" sizes="32x32" type="image/png">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %} {{ site.description }} {% endif%}">
+    
+    <base href="{{ site.url }}">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/min/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/google-map-init.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    
+    <script src="js/main.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        #myInput {
+          background-image: url('/css/searchicon.png');
+          background-position: 10px 10px;
+          background-repeat: no-repeat;
+          width: 50%;
+          font-size: 16px;
+          padding: 12px 20px 12px 40px;
+          border: 1px solid #ddd;
+          margin-bottom: 12px;
+        }
+
+        #myTable {
+          border-collapse: collapse;
+          align-items: center;
+          width: 80%;
+          border: 10px solid #ddd;
+          font-size: 18px;
+        }
+
+        #myTable th, #myTable td {
+          text-align: left;
+          padding: 12px;
+        }
+
+        #myTable tr {
+          border-bottom: 1px solid #ddd;
+        }
+
+        #myTable tr.header, #myTable tr:hover {
+          background-color: #f1f1f1;
+        }
+        #myTable.center { margin-left:auto; margin-right:auto; }
+        #myInput.center { margin-left:auto; margin-right:auto; }
+
+        #my-paragraph {
+          text-align: center;
+          color:red;
+          font-size: 20px;
+        }
+        </style>
+
+  </head>
+  <body>
+
+    <!-- Header Start -->
+    <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <!-- header Nav Start 
+          {% include nav.html %}-->
+
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png" alt="Logo">
+                </a>
+              </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a> </li></li>
+                    <li><a href="index.html#project" class="nav-link current">What We Do</a></li>
+                    <li><a href="audiobooks.html">Books</a></li>
+                    <li><a href="writers.html">Writers</a></li>
+                    <li><a href="photos.html">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+        
+
+        </div>
+        </div>
+      </div>
+    </header><!-- header close -->
+
+    <!-- Slider Start -->
+            <!-- Slider Start -->
+    <section id="global-header">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="block">
+                        <h1>Our Writers</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    </section>
+   
+    <h2 style="text-align: center;"> Scribe or Writer Rule for exam  </br></h2>
+
+    <p id="my-paragraph">
+        According to F.No. 16-110/2003-DD.III, Section 5</br>
+        Government of India Ministry of Social Justice & Empowerment
+        Department of Disability Affairs
+        </br>
+        </br>
+        Criteria like educational qualification, marks scored, age or other such
+        restrictions for the scribe/reader/lab assistant should not be fixed. 
+        </br>
+        Instead, the invigilation system should be strengthened, so that the candidates using
+        scribe/reader/lab assistant do not indulge in mal-practices like copying and
+        cheating during the examination.
+        </br>
+        </br>
+
+        For detail read here: <a href="docs/MinistryGuidelinesonScribe.pdf">Ministry's Guidelines on Scribe.pdf</a>
+        
+        </br>
+        </br>
+    </p>
+
+
+    <h3 style="text-align: center;"> Find Writer by Location
+    <input type="text" class="center" id="myInput" onkeyup="myFunction()" placeholder="Search for location.." title="Type in a location">
+    </h3>
+
+    <table id="myTable" class="center">
+      <tr class="header">
+        <th style="width:30%;">Location</th>
+        <th style="width:30%;">Name</th>
+        <th style="width:40%;">Description</th>
+      </tr>
+      <tr>
+        <td>Kolkata</td>
+        <td>A Sen</td>
+        <td>I can work on weekdays</td>
+      </tr>
+      <tr>
+        <td>Behala</td>
+        <td>A Mitra</td>
+      </tr>
+      <tr>
+        <td>Siliguri, North Bengal</td>
+        <td>A Dutta</td>
+      </tr>
+      <tr>
+        <td>Guma</td>
+        <td>A Roy</td>
+      </tr>
+      <tr>
+        <td>Barasat, Dum Dum</td>
+        <td>A Dhar</td>
+      </tr>
+      <tr>
+        <td>Kolkata Airport</td>
+        <td>A Das</td>
+      </tr>
+      <tr>
+        <td>Baguihati, Ultadanga</td>
+        <td>A Roy</td>
+      </tr>
+      <tr>
+        <td>Rajarhat</td>
+        <td>A Chandra</td>
+        <td>Weekend available</td>
+      </tr>
+    </table>
+
+
+    <!-- Call to action Start -->
+    <section id="call-to-action">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="block">
+                <h2>Know the community of Visually Impaired Students</h2>
+                <p>and be part of the community</p>
+                <a class="btn btn-default btn-call-to-action" href="https://www.facebook.com/Prerana-Audio-Library-100342325822550" >Visit us on Facebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+
+ 
+    <!-- footer Start -->
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+                 <!-- header Nav Start 
+                 {% include footer-nav.html %}-->
+                 <div class="footer-manu">
+                  <ul>
+                    <li><a href="index.html">Home</a> </li></li>
+                    <li><a href="index.html#project" class="nav-link current">Our Work</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                  </ul>
+                </div>
+              
+
+
+              <p>Copyright &copy; Design & Developed by Voice of Books Team. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+              
+              
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+              
+    <script>
+      function myFunction() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+          td = tr[i].getElementsByTagName("td")[0];
+          if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }       
+        }
+      }
+    </script>  
+  </body>
+</html>
