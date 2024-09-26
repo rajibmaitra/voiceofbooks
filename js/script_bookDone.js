@@ -300,21 +300,24 @@ function cardPrintArray(bookarray) {
 }
 
 function liveSearch() {
-  // Locate the card elements
-  let cards = document.querySelectorAll('.cards')
-  // Locate the search input
-  let search_query = document.getElementById("searchbox").value;
-  // Loop through the cards
-  for (var i = 0; i < cards.length; i++) {
-    // If the text is within the card...
-    if(cards[i].innerHTML.toLowerCase()
-      // ...and the text matches the search query...
-      .includes(search_query.toLowerCase())) {
-        // ...remove the `.is-hidden` class.
-        cards[i].classList.remove("is-hidden");
+  print("Live Search");
+  // Get the search query
+  let search_query = document.getElementById("searchbox").value.toLowerCase();
+  
+  // Get all cards (they all have the class 'card')
+  let cards = document.querySelectorAll('.card');
+  
+  // Loop through each card
+  cards.forEach((card) => {
+    // Get the card's text content
+    let cardContent = card.textContent.toLowerCase();
+    
+    // Check if the card's content matches the search query
+    if(cardContent.includes(search_query)) {
+      print("Found");
+      card.style.display = "block"; // Show the card
     } else {
-      // Otherwise, add the class.
-      cards[i].classList.add("is-hidden");
+      card.style.display = "none";  // Hide the card
     }
-  }
+  });
 }
